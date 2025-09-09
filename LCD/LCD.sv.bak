@@ -1,0 +1,9 @@
+module LCD
+	#(parameter      WIDTH = 32, // Bit Width
+	  parameter      FLOAT = 0 ) // Floating Point Enable
+	 (input          clk       , // 50MHz Clock
+	  inout    [7:0] lcd_data  , // LCD Data Bus
+	  output         lcd_rs    , // LCD Register Select
+	  output         lcd_rw    , // LCD Read Write Select
+	  output         lcd_e     , // LCD Execute
+	  input          lcd_reset , // LCD Reset

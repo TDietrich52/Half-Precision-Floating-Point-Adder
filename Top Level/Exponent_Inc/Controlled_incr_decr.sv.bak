@@ -1,0 +1,8 @@
+module Controlled_incr_decr(
+input select, cin,
+input [7:0] A,
+output [7:0] B
+);
+
+
+

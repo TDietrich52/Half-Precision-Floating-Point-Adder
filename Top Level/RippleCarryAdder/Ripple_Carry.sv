@@ -1,0 +1,29 @@
+//Ripple Addition & Subtraction
+// If C=1 Subtraction, C=0 Addition 
+
+module Ripple_Carry(
+    input [10:0] A, B,  
+	 input sum_add,
+    output [10:0] S,    
+    output Cout);
+	 
+wire [11:0] C;
+assign C[0] = sum_add; 
+	 	 
+// Instantiate full adders for each stage of the  ripple carry 
+Full_Adder s0 (.Ai(A[0]), .Bi(B[0] ^ sum_add), .Ciin(C[0]), .Si(S[0]), .Ciout(C[1]));
+Full_Adder s1 (.Ai(A[1]), .Bi(B[1] ^ sum_add), .Ciin(C[1]), .Si(S[1]), .Ciout(C[2]));
+Full_Adder s2 (.Ai(A[2]), .Bi(B[2] ^ sum_add), .Ciin(C[2]), .Si(S[2]), .Ciout(C[3]));
+Full_Adder s3 (.Ai(A[3]), .Bi(B[3] ^ sum_add), .Ciin(C[3]), .Si(S[3]), .Ciout(C[4]));
+Full_Adder s4 (.Ai(A[4]), .Bi(B[4] ^ sum_add), .Ciin(C[4]), .Si(S[4]), .Ciout(C[5]));
+Full_Adder s5 (.Ai(A[5]), .Bi(B[5] ^ sum_add), .Ciin(C[5]), .Si(S[5]), .Ciout(C[6]));
+Full_Adder s6 (.Ai(A[6]), .Bi(B[6] ^ sum_add), .Ciin(C[6]), .Si(S[6]), .Ciout(C[7]));
+Full_Adder s7 (.Ai(A[7]), .Bi(B[7] ^ sum_add), .Ciin(C[7]), .Si(S[7]), .Ciout(C[8]));
+Full_Adder s8 (.Ai(A[8]), .Bi(B[8] ^ sum_add), .Ciin(C[8]), .Si(S[8]), .Ciout(C[9]));
+Full_Adder s9 (.Ai(A[9]), .Bi(B[9] ^ sum_add), .Ciin(C[9]), .Si(S[9]), .Ciout(C[10]));
+Full_Adder s10(.Ai(A[10]),.Bi(B[10]^ sum_add), .Ciin(C[10]),.Si(S[10]),.Ciout(C[11]));
+assign Cout = C[11];
+
+ 
+
+endmodule

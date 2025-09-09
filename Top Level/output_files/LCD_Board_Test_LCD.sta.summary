@@ -1,0 +1,185 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'LCD_Board_PB[11]'
+Slack : -11.773
+TNS   : -173.178
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -7.809
+TNS   : -736.732
+
+Type  : Slow 1200mV 85C Model Setup 'LCD_Board_PB[0]'
+Slack : -5.595
+TNS   : -143.329
+
+Type  : Slow 1200mV 85C Model Setup 'row_sig[0]'
+Slack : -3.125
+TNS   : -40.181
+
+Type  : Slow 1200mV 85C Model Setup 'Keypad_Input:Keypad_Input_inst|keypad_base:keypad_base|clock_div:keypad_clock_divider|clk_track'
+Slack : -1.535
+TNS   : -9.646
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.323
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Keypad_Input:Keypad_Input_inst|keypad_base:keypad_base|clock_div:keypad_clock_divider|clk_track'
+Slack : 0.378
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'row_sig[0]'
+Slack : 0.547
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'LCD_Board_PB[0]'
+Slack : 0.659
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'LCD_Board_PB[11]'
+Slack : 1.496
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -248.525
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'row_sig[0]'
+Slack : -3.000
+TNS   : -89.725
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LCD_Board_PB[11]'
+Slack : -3.000
+TNS   : -25.448
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LCD_Board_PB[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Keypad_Input:Keypad_Input_inst|keypad_base:keypad_base|clock_div:keypad_clock_divider|clk_track'
+Slack : -1.403
+TNS   : -11.224
+
+Type  : Slow 1200mV 0C Model Setup 'LCD_Board_PB[11]'
+Slack : -10.712
+TNS   : -157.276
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -7.069
+TNS   : -660.284
+
+Type  : Slow 1200mV 0C Model Setup 'LCD_Board_PB[0]'
+Slack : -5.164
+TNS   : -131.191
+
+Type  : Slow 1200mV 0C Model Setup 'row_sig[0]'
+Slack : -2.847
+TNS   : -35.841
+
+Type  : Slow 1200mV 0C Model Setup 'Keypad_Input:Keypad_Input_inst|keypad_base:keypad_base|clock_div:keypad_clock_divider|clk_track'
+Slack : -1.405
+TNS   : -8.462
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.290
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Keypad_Input:Keypad_Input_inst|keypad_base:keypad_base|clock_div:keypad_clock_divider|clk_track'
+Slack : 0.339
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'row_sig[0]'
+Slack : 0.571
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'LCD_Board_PB[0]'
+Slack : 0.645
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'LCD_Board_PB[11]'
+Slack : 1.348
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -248.525
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'row_sig[0]'
+Slack : -3.000
+TNS   : -83.721
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LCD_Board_PB[11]'
+Slack : -3.000
+TNS   : -25.448
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LCD_Board_PB[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Keypad_Input:Keypad_Input_inst|keypad_base:keypad_base|clock_div:keypad_clock_divider|clk_track'
+Slack : -1.403
+TNS   : -11.224
+
+Type  : Fast 1200mV 0C Model Setup 'LCD_Board_PB[11]'
+Slack : -4.526
+TNS   : -66.019
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -2.799
+TNS   : -215.458
+
+Type  : Fast 1200mV 0C Model Setup 'LCD_Board_PB[0]'
+Slack : -1.914
+TNS   : -50.688
+
+Type  : Fast 1200mV 0C Model Setup 'row_sig[0]'
+Slack : -1.452
+TNS   : -18.024
+
+Type  : Fast 1200mV 0C Model Setup 'Keypad_Input:Keypad_Input_inst|keypad_base:keypad_base|clock_div:keypad_clock_divider|clk_track'
+Slack : -0.592
+TNS   : -2.313
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.140
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Keypad_Input:Keypad_Input_inst|keypad_base:keypad_base|clock_div:keypad_clock_divider|clk_track'
+Slack : 0.166
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'LCD_Board_PB[0]'
+Slack : 0.169
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'row_sig[0]'
+Slack : 0.178
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'LCD_Board_PB[11]'
+Slack : 0.607
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -183.664
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'row_sig[0]'
+Slack : -3.000
+TNS   : -51.139
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LCD_Board_PB[11]'
+Slack : -3.000
+TNS   : -21.623
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LCD_Board_PB[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Keypad_Input:Keypad_Input_inst|keypad_base:keypad_base|clock_div:keypad_clock_divider|clk_track'
+Slack : -1.000
+TNS   : -8.000
+
+------------------------------------------------------------

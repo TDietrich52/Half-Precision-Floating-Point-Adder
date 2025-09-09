@@ -1,0 +1,24 @@
+module demux1to3 (
+    input  logic       in,
+    input  logic [1:0] sel,
+    output logic       out0,
+    output logic       out1,
+    output logic       out2
+);
+
+always_comb begin
+    // Default all outputs to 0
+    out0 = 0;
+    out1 = 0;
+    out2 = 0;
+
+    // Route input to the selected output
+    case (sel)
+        2'b00: out0 = in;
+        2'b01: out1 = in;
+        2'b10: out2 = in;
+        default: ; // sel = 2'b11, do nothing
+    endcase
+end
+
+endmodule

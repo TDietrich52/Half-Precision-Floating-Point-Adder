@@ -1,0 +1,10 @@
+module TEST_LCD
+	 (input                clk       , // 50MHz Clock
+	  inout    [7:0]       lcd_data  , // LCD Data Bus
+	  output               lcd_rs    , // LCD Register Select
+	  output               lcd_rw    , // LCD Read Write Select
+	  output               lcd_e    ); // LCD Execute
+
+
+
+endmodule

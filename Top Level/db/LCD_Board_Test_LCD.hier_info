@@ -1,0 +1,3368 @@
+|LCD_Board_Test_LCD
+clk => clk.IN2
+lcd_reset => lcd_reset.IN1
+LCD_Board_PB[11] => Creg[0].CLK
+LCD_Board_PB[11] => Creg[1].CLK
+LCD_Board_PB[11] => Creg[2].CLK
+LCD_Board_PB[11] => Creg[3].CLK
+LCD_Board_PB[11] => Creg[4].CLK
+LCD_Board_PB[11] => Creg[5].CLK
+LCD_Board_PB[11] => Creg[6].CLK
+LCD_Board_PB[11] => Creg[7].CLK
+LCD_Board_PB[11] => Creg[8].CLK
+LCD_Board_PB[11] => Creg[9].CLK
+LCD_Board_PB[11] => Creg[10].CLK
+LCD_Board_PB[11] => Creg[11].CLK
+LCD_Board_PB[11] => Creg[12].CLK
+LCD_Board_PB[11] => Creg[13].CLK
+LCD_Board_PB[11] => Creg[14].CLK
+LCD_Board_PB[11] => Creg[15].CLK
+LCD_Board_PB[10] => ~NO_FANOUT~
+LCD_Board_PB[9] => ~NO_FANOUT~
+LCD_Board_PB[8] => ~NO_FANOUT~
+LCD_Board_PB[7] => ~NO_FANOUT~
+LCD_Board_PB[6] => Creg[0].OUTPUTSELECT
+LCD_Board_PB[6] => Creg[1].OUTPUTSELECT
+LCD_Board_PB[6] => Creg[2].OUTPUTSELECT
+LCD_Board_PB[6] => Creg[3].OUTPUTSELECT
+LCD_Board_PB[6] => Creg[4].OUTPUTSELECT
+LCD_Board_PB[6] => Creg[5].OUTPUTSELECT
+LCD_Board_PB[6] => Creg[6].OUTPUTSELECT
+LCD_Board_PB[6] => Creg[7].OUTPUTSELECT
+LCD_Board_PB[6] => Creg[8].OUTPUTSELECT
+LCD_Board_PB[6] => Creg[9].OUTPUTSELECT
+LCD_Board_PB[6] => Creg[10].OUTPUTSELECT
+LCD_Board_PB[6] => Creg[11].OUTPUTSELECT
+LCD_Board_PB[6] => Creg[12].OUTPUTSELECT
+LCD_Board_PB[6] => Creg[13].OUTPUTSELECT
+LCD_Board_PB[6] => Creg[14].OUTPUTSELECT
+LCD_Board_PB[6] => Creg[15].OUTPUTSELECT
+LCD_Board_PB[6] => Breg[0].IN0
+LCD_Board_PB[5] => ~NO_FANOUT~
+LCD_Board_PB[4] => ~NO_FANOUT~
+LCD_Board_PB[3] => ~NO_FANOUT~
+LCD_Board_PB[2] => ~NO_FANOUT~
+LCD_Board_PB[1] => ~NO_FANOUT~
+LCD_Board_PB[0] => Creg[0].OUTPUTSELECT
+LCD_Board_PB[0] => Creg[1].OUTPUTSELECT
+LCD_Board_PB[0] => Creg[2].OUTPUTSELECT
+LCD_Board_PB[0] => Creg[3].OUTPUTSELECT
+LCD_Board_PB[0] => Creg[4].OUTPUTSELECT
+LCD_Board_PB[0] => Creg[5].OUTPUTSELECT
+LCD_Board_PB[0] => Creg[6].OUTPUTSELECT
+LCD_Board_PB[0] => Creg[7].OUTPUTSELECT
+LCD_Board_PB[0] => Creg[8].OUTPUTSELECT
+LCD_Board_PB[0] => Creg[9].OUTPUTSELECT
+LCD_Board_PB[0] => Creg[10].OUTPUTSELECT
+LCD_Board_PB[0] => Creg[11].OUTPUTSELECT
+LCD_Board_PB[0] => Creg[12].OUTPUTSELECT
+LCD_Board_PB[0] => Creg[13].OUTPUTSELECT
+LCD_Board_PB[0] => Creg[14].OUTPUTSELECT
+LCD_Board_PB[0] => Creg[15].OUTPUTSELECT
+LCD_Board_PB[0] => Areg[0].LATCH_ENABLE
+LCD_Board_PB[0] => Areg[1].LATCH_ENABLE
+LCD_Board_PB[0] => Areg[2].LATCH_ENABLE
+LCD_Board_PB[0] => Areg[3].LATCH_ENABLE
+LCD_Board_PB[0] => Areg[4].LATCH_ENABLE
+LCD_Board_PB[0] => Areg[5].LATCH_ENABLE
+LCD_Board_PB[0] => Areg[6].LATCH_ENABLE
+LCD_Board_PB[0] => Areg[7].LATCH_ENABLE
+LCD_Board_PB[0] => Areg[8].LATCH_ENABLE
+LCD_Board_PB[0] => Areg[9].LATCH_ENABLE
+LCD_Board_PB[0] => Areg[10].LATCH_ENABLE
+LCD_Board_PB[0] => Areg[11].LATCH_ENABLE
+LCD_Board_PB[0] => Areg[12].LATCH_ENABLE
+LCD_Board_PB[0] => Areg[13].LATCH_ENABLE
+LCD_Board_PB[0] => Areg[14].LATCH_ENABLE
+LCD_Board_PB[0] => Areg[15].LATCH_ENABLE
+LCD_Board_PB[0] => Breg[0].IN1
+LCD_Board_SW[4] => ~NO_FANOUT~
+LCD_Board_SW[3] => ~NO_FANOUT~
+LCD_Board_SW[2] => ~NO_FANOUT~
+LCD_Board_SW[1] => ~NO_FANOUT~
+LCD_Board_SW[0] => ~NO_FANOUT~
+row_sig[0] => row_sig[0].IN1
+row_sig[1] => row_sig[1].IN1
+row_sig[2] => row_sig[2].IN1
+row_sig[3] => row_sig[3].IN1
+target_line[0] => ~NO_FANOUT~
+target_line[1] => ~NO_FANOUT~
+target_sign => ~NO_FANOUT~
+col_sig[0] <= Keypad_Input:Keypad_Input_inst.col
+col_sig[1] <= Keypad_Input:Keypad_Input_inst.col
+col_sig[2] <= Keypad_Input:Keypad_Input_inst.col
+col_sig[3] <= Keypad_Input:Keypad_Input_inst.col
+value_sig[0] <= Keypad_Input:Keypad_Input_inst.value
+value_sig[1] <= Keypad_Input:Keypad_Input_inst.value
+value_sig[2] <= Keypad_Input:Keypad_Input_inst.value
+value_sig[3] <= Keypad_Input:Keypad_Input_inst.value
+lcd_data[0] <> LCD:comb_293.lcd_data
+lcd_data[1] <> LCD:comb_293.lcd_data
+lcd_data[2] <> LCD:comb_293.lcd_data
+lcd_data[3] <> LCD:comb_293.lcd_data
+lcd_data[4] <> LCD:comb_293.lcd_data
+lcd_data[5] <> LCD:comb_293.lcd_data
+lcd_data[6] <> LCD:comb_293.lcd_data
+lcd_data[7] <> LCD:comb_293.lcd_data
+LCD_Board_LED[7] <= <GND>
+LCD_Board_LED[6] <= <GND>
+LCD_Board_LED[5] <= <GND>
+LCD_Board_LED[4] <= <GND>
+LCD_Board_LED[3] <= <GND>
+LCD_Board_LED[2] <= <GND>
+LCD_Board_LED[1] <= <GND>
+LCD_Board_LED[0] <= <GND>
+lcd_rs <= LCD:comb_293.lcd_rs
+lcd_rw <= LCD:comb_293.lcd_rw
+lcd_e <= LCD:comb_293.lcd_e
+
+
+|LCD_Board_Test_LCD|Keypad_Input:Keypad_Input_inst
+clk => clk.IN1
+reset => reset.IN1
+row[0] => row[0].IN1
+row[1] => row[1].IN1
+row[2] => row[2].IN1
+row[3] => row[3].IN1
+col[0] <= keypad_base:keypad_base.col
+col[1] <= keypad_base:keypad_base.col
+col[2] <= keypad_base:keypad_base.col
+col[3] <= keypad_base:keypad_base.col
+out[0] <= shift_reg:shift_reg.out
+out[1] <= shift_reg:shift_reg.out
+out[2] <= shift_reg:shift_reg.out
+out[3] <= shift_reg:shift_reg.out
+out[4] <= shift_reg:shift_reg.out
+out[5] <= shift_reg:shift_reg.out
+out[6] <= shift_reg:shift_reg.out
+out[7] <= shift_reg:shift_reg.out
+out[8] <= shift_reg:shift_reg.out
+out[9] <= shift_reg:shift_reg.out
+out[10] <= shift_reg:shift_reg.out
+out[11] <= shift_reg:shift_reg.out
+out[12] <= shift_reg:shift_reg.out
+out[13] <= shift_reg:shift_reg.out
+out[14] <= shift_reg:shift_reg.out
+out[15] <= shift_reg:shift_reg.out
+value[0] <= value[0].DB_MAX_OUTPUT_PORT_TYPE
+value[1] <= value[1].DB_MAX_OUTPUT_PORT_TYPE
+value[2] <= value[2].DB_MAX_OUTPUT_PORT_TYPE
+value[3] <= value[3].DB_MAX_OUTPUT_PORT_TYPE
+trig <= trig.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|Keypad_Input:Keypad_Input_inst|keypad_base:keypad_base
+clk => clk.IN1
+row[0] => inv_row[0].IN2
+row[1] => inv_row[1].IN2
+row[2] => inv_row[2].IN2
+row[3] => inv_row[3].IN2
+col[0] <= col[0].DB_MAX_OUTPUT_PORT_TYPE
+col[1] <= col[1].DB_MAX_OUTPUT_PORT_TYPE
+col[2] <= col[2].DB_MAX_OUTPUT_PORT_TYPE
+col[3] <= col[3].DB_MAX_OUTPUT_PORT_TYPE
+value[0] <= keypad_decoder:keypad_key_decoder.value
+value[1] <= keypad_decoder:keypad_key_decoder.value
+value[2] <= keypad_decoder:keypad_key_decoder.value
+value[3] <= keypad_decoder:keypad_key_decoder.value
+valid <= valid.DB_MAX_OUTPUT_PORT_TYPE
+slow_clock <= slow_clock.DB_MAX_OUTPUT_PORT_TYPE
+sense <= keypad_fsm:keypad_fsm.sense
+valid_digit <= keypad_decoder:keypad_key_decoder.valid
+inv_row[0] <= inv_row[0].DB_MAX_OUTPUT_PORT_TYPE
+inv_row[1] <= inv_row[1].DB_MAX_OUTPUT_PORT_TYPE
+inv_row[2] <= inv_row[2].DB_MAX_OUTPUT_PORT_TYPE
+inv_row[3] <= inv_row[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|Keypad_Input:Keypad_Input_inst|keypad_base:keypad_base|clock_div:keypad_clock_divider
+clk => clk_track.CLK
+clk => r_reg[0].CLK
+clk => r_reg[1].CLK
+clk => r_reg[2].CLK
+clk => r_reg[3].CLK
+clk => r_reg[4].CLK
+clk => r_reg[5].CLK
+clk => r_reg[6].CLK
+clk => r_reg[7].CLK
+clk => r_reg[8].CLK
+clk => r_reg[9].CLK
+clk => r_reg[10].CLK
+clk => r_reg[11].CLK
+clk => r_reg[12].CLK
+clk => r_reg[13].CLK
+clk => r_reg[14].CLK
+clk => r_reg[15].CLK
+clk => r_reg[16].CLK
+clk => r_reg[17].CLK
+clk => r_reg[18].CLK
+clk => r_reg[19].CLK
+clk => r_reg[20].CLK
+clk => r_reg[21].CLK
+clk => r_reg[22].CLK
+clk => r_reg[23].CLK
+clk => r_reg[24].CLK
+clk => r_reg[25].CLK
+clk => r_reg[26].CLK
+clk => r_reg[27].CLK
+clk => r_reg[28].CLK
+clk => r_reg[29].CLK
+clk => r_reg[30].CLK
+clk => r_reg[31].CLK
+reset => clk_track.ACLR
+reset => r_reg[0].ACLR
+reset => r_reg[1].ACLR
+reset => r_reg[2].ACLR
+reset => r_reg[3].ACLR
+reset => r_reg[4].ACLR
+reset => r_reg[5].ACLR
+reset => r_reg[6].ACLR
+reset => r_reg[7].ACLR
+reset => r_reg[8].ACLR
+reset => r_reg[9].ACLR
+reset => r_reg[10].ACLR
+reset => r_reg[11].ACLR
+reset => r_reg[12].ACLR
+reset => r_reg[13].ACLR
+reset => r_reg[14].ACLR
+reset => r_reg[15].ACLR
+reset => r_reg[16].ACLR
+reset => r_reg[17].ACLR
+reset => r_reg[18].ACLR
+reset => r_reg[19].ACLR
+reset => r_reg[20].ACLR
+reset => r_reg[21].ACLR
+reset => r_reg[22].ACLR
+reset => r_reg[23].ACLR
+reset => r_reg[24].ACLR
+reset => r_reg[25].ACLR
+reset => r_reg[26].ACLR
+reset => r_reg[27].ACLR
+reset => r_reg[28].ACLR
+reset => r_reg[29].ACLR
+reset => r_reg[30].ACLR
+reset => r_reg[31].ACLR
+clk_out <= clk_track.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|Keypad_Input:Keypad_Input_inst|keypad_base:keypad_base|keypad_fsm:keypad_fsm
+clk => col[0]~reg0.CLK
+clk => col[1]~reg0.CLK
+clk => col[2]~reg0.CLK
+clk => col[3]~reg0.CLK
+clk => state[0]~reg0.CLK
+clk => state[1]~reg0.CLK
+clk => state[2]~reg0.CLK
+clk => state[3]~reg0.CLK
+row[0] => trig.IN0
+row[1] => trig.IN1
+row[2] => trig.IN1
+row[3] => trig.IN1
+col[0] <= col[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+col[1] <= col[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+col[2] <= col[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+col[3] <= col[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sense <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+state[0] <= state[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[1] <= state[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[2] <= state[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[3] <= state[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+trig <= trig.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|Keypad_Input:Keypad_Input_inst|keypad_base:keypad_base|keypad_decoder:keypad_key_decoder
+row[0] => Decoder0.IN3
+row[1] => Decoder0.IN2
+row[2] => Decoder0.IN1
+row[3] => Decoder0.IN0
+col[0] => Decoder0.IN7
+col[1] => Decoder0.IN6
+col[2] => Decoder0.IN5
+col[3] => Decoder0.IN4
+value[0] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+value[1] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+value[2] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+value[3] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+valid <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|Keypad_Input:Keypad_Input_inst|shift_reg:shift_reg
+trig => out[0]~reg0.CLK
+trig => out[1]~reg0.CLK
+trig => out[2]~reg0.CLK
+trig => out[3]~reg0.CLK
+trig => out[4]~reg0.CLK
+trig => out[5]~reg0.CLK
+trig => out[6]~reg0.CLK
+trig => out[7]~reg0.CLK
+trig => out[8]~reg0.CLK
+trig => out[9]~reg0.CLK
+trig => out[10]~reg0.CLK
+trig => out[11]~reg0.CLK
+trig => out[12]~reg0.CLK
+trig => out[13]~reg0.CLK
+trig => out[14]~reg0.CLK
+trig => out[15]~reg0.CLK
+reset => out[0]~reg0.ACLR
+reset => out[1]~reg0.ACLR
+reset => out[2]~reg0.ACLR
+reset => out[3]~reg0.ACLR
+reset => out[4]~reg0.ACLR
+reset => out[5]~reg0.ACLR
+reset => out[6]~reg0.ACLR
+reset => out[7]~reg0.ACLR
+reset => out[8]~reg0.ACLR
+reset => out[9]~reg0.ACLR
+reset => out[10]~reg0.ACLR
+reset => out[11]~reg0.ACLR
+reset => out[12]~reg0.ACLR
+reset => out[13]~reg0.ACLR
+reset => out[14]~reg0.ACLR
+reset => out[15]~reg0.ACLR
+dir => out.OUTPUTSELECT
+dir => out.OUTPUTSELECT
+dir => out.OUTPUTSELECT
+dir => out.OUTPUTSELECT
+dir => out.OUTPUTSELECT
+dir => out.OUTPUTSELECT
+dir => out.OUTPUTSELECT
+dir => out.OUTPUTSELECT
+dir => out.OUTPUTSELECT
+dir => out.OUTPUTSELECT
+dir => out.OUTPUTSELECT
+dir => out.OUTPUTSELECT
+dir => out.OUTPUTSELECT
+dir => out.OUTPUTSELECT
+dir => out.OUTPUTSELECT
+dir => out.OUTPUTSELECT
+in[0] => out.DATAB
+in[0] => out.DATAA
+in[1] => out.DATAB
+in[1] => out.DATAA
+in[2] => out.DATAB
+in[2] => out.DATAA
+in[3] => out.DATAB
+in[3] => out.DATAA
+out[0] <= out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[7] <= out[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[8] <= out[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[9] <= out[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[10] <= out[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[11] <= out[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[12] <= out[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[13] <= out[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[14] <= out[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[15] <= out[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|Five_Bit_Expo:Exponent_Subtractor
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+LEDS[0] <= LEDS.DB_MAX_OUTPUT_PORT_TYPE
+LEDS[1] <= LEDS.DB_MAX_OUTPUT_PORT_TYPE
+LEDS[2] <= LEDS.DB_MAX_OUTPUT_PORT_TYPE
+LEDS[3] <= LEDS.DB_MAX_OUTPUT_PORT_TYPE
+LEDS[4] <= LEDS.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= RC_Sub:RC_Sub_inst.Cout
+
+
+|LCD_Board_Test_LCD|Five_Bit_Expo:Exponent_Subtractor|RC_Sub:RC_Sub_inst
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+B[0] => _.IN1
+B[1] => _.IN1
+B[2] => _.IN1
+B[3] => _.IN1
+B[4] => _.IN1
+S[0] <= Full_Adder:s0.Si
+S[1] <= Full_Adder:s1.Si
+S[2] <= Full_Adder:s2.Si
+S[3] <= Full_Adder:s3.Si
+S[4] <= Full_Adder:s4.Si
+Cout <= Full_Adder:s4.Ciout
+
+
+|LCD_Board_Test_LCD|Five_Bit_Expo:Exponent_Subtractor|RC_Sub:RC_Sub_inst|Full_Adder:s0
+Ai => Decoder0.IN0
+Bi => Decoder0.IN1
+Ciin => Decoder0.IN2
+Si <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+Ciout <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|Five_Bit_Expo:Exponent_Subtractor|RC_Sub:RC_Sub_inst|Full_Adder:s1
+Ai => Decoder0.IN0
+Bi => Decoder0.IN1
+Ciin => Decoder0.IN2
+Si <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+Ciout <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|Five_Bit_Expo:Exponent_Subtractor|RC_Sub:RC_Sub_inst|Full_Adder:s2
+Ai => Decoder0.IN0
+Bi => Decoder0.IN1
+Ciin => Decoder0.IN2
+Si <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+Ciout <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|Five_Bit_Expo:Exponent_Subtractor|RC_Sub:RC_Sub_inst|Full_Adder:s3
+Ai => Decoder0.IN0
+Bi => Decoder0.IN1
+Ciin => Decoder0.IN2
+Si <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+Ciout <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|Five_Bit_Expo:Exponent_Subtractor|RC_Sub:RC_Sub_inst|Full_Adder:s4
+Ai => Decoder0.IN0
+Bi => Decoder0.IN1
+Ciin => Decoder0.IN2
+Si <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+Ciout <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|Five_Bit_Expo:Exponent_Subtractor|conv_two:conv_two_inst
+A[0] => _.IN1
+A[1] => _.IN1
+A[2] => _.IN1
+A[3] => _.IN1
+A[4] => _.IN1
+A[5] => _.IN1
+A[6] => _.IN1
+A[7] => _.IN1
+B[0] <= halfADDER:twosFor[0].halfADDER_inst1.s
+B[1] <= halfADDER:twosFor[1].halfADDER_inst1.s
+B[2] <= halfADDER:twosFor[2].halfADDER_inst1.s
+B[3] <= halfADDER:twosFor[3].halfADDER_inst1.s
+B[4] <= halfADDER:twosFor[4].halfADDER_inst1.s
+B[5] <= halfADDER:twosFor[5].halfADDER_inst1.s
+B[6] <= halfADDER:twosFor[6].halfADDER_inst1.s
+B[7] <= halfADDER:twosFor[7].halfADDER_inst1.s
+
+
+|LCD_Board_Test_LCD|Five_Bit_Expo:Exponent_Subtractor|conv_two:conv_two_inst|halfADDER:twosFor[0].halfADDER_inst1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+
+
+|LCD_Board_Test_LCD|Five_Bit_Expo:Exponent_Subtractor|conv_two:conv_two_inst|halfADDER:twosFor[1].halfADDER_inst1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+
+
+|LCD_Board_Test_LCD|Five_Bit_Expo:Exponent_Subtractor|conv_two:conv_two_inst|halfADDER:twosFor[2].halfADDER_inst1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+
+
+|LCD_Board_Test_LCD|Five_Bit_Expo:Exponent_Subtractor|conv_two:conv_two_inst|halfADDER:twosFor[3].halfADDER_inst1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+
+
+|LCD_Board_Test_LCD|Five_Bit_Expo:Exponent_Subtractor|conv_two:conv_two_inst|halfADDER:twosFor[4].halfADDER_inst1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+
+
+|LCD_Board_Test_LCD|Five_Bit_Expo:Exponent_Subtractor|conv_two:conv_two_inst|halfADDER:twosFor[5].halfADDER_inst1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+
+
+|LCD_Board_Test_LCD|Five_Bit_Expo:Exponent_Subtractor|conv_two:conv_two_inst|halfADDER:twosFor[6].halfADDER_inst1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+
+
+|LCD_Board_Test_LCD|Five_Bit_Expo:Exponent_Subtractor|conv_two:conv_two_inst|halfADDER:twosFor[7].halfADDER_inst1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+in[8] => in[8].IN2
+in[9] => in[9].IN2
+in[10] => in[10].IN2
+control[0] => control[0].IN11
+control[1] => control[1].IN11
+control[2] => control[2].IN11
+control[3] => control[3].IN11
+out[0] <= mux2x1:ins3_10.out
+out[1] <= mux2x1:ins3_9.out
+out[2] <= mux2x1:ins3_8.out
+out[3] <= mux2x1:ins3_7.out
+out[4] <= mux2x1:ins3_6.out
+out[5] <= mux2x1:ins3_5.out
+out[6] <= mux2x1:ins3_4.out
+out[7] <= mux2x1:ins3_3.out
+out[8] <= mux2x1:ins3_2.out
+out[9] <= mux2x1:ins3_1.out
+out[10] <= mux2x1:ins3_0.out
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins0_0
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins0_1
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins0_2
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins0_3
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins0_4
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins0_5
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins0_6
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins0_7
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins0_8
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins0_9
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins0_10
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins1_0
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins1_1
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins1_2
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins1_3
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins1_4
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins1_5
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins1_6
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins1_7
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins1_8
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins1_9
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins1_10
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins2_0
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins2_1
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins2_2
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins2_3
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins2_4
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins2_5
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins2_6
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins2_7
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins2_8
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins2_9
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins2_10
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins3_0
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins3_1
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins3_2
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins3_3
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins3_4
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins3_5
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins3_6
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins3_7
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins3_8
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins3_9
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Right_Shifter|mux2x1:ins3_10
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|Ripple_Carry:RippleCarry_Adder
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+A[8] => A[8].IN1
+A[9] => A[9].IN1
+A[10] => A[10].IN1
+B[0] => comb.IN0
+B[1] => comb.IN0
+B[2] => comb.IN0
+B[3] => comb.IN0
+B[4] => comb.IN0
+B[5] => comb.IN0
+B[6] => comb.IN0
+B[7] => comb.IN0
+B[8] => comb.IN0
+B[9] => comb.IN0
+B[10] => comb.IN0
+sum_add => C[0].IN1
+S[0] <= Full_Adder:s0.Si
+S[1] <= Full_Adder:s1.Si
+S[2] <= Full_Adder:s2.Si
+S[3] <= Full_Adder:s3.Si
+S[4] <= Full_Adder:s4.Si
+S[5] <= Full_Adder:s5.Si
+S[6] <= Full_Adder:s6.Si
+S[7] <= Full_Adder:s7.Si
+S[8] <= Full_Adder:s8.Si
+S[9] <= Full_Adder:s9.Si
+S[10] <= Full_Adder:s10.Si
+Cout <= Full_Adder:s10.Ciout
+
+
+|LCD_Board_Test_LCD|Ripple_Carry:RippleCarry_Adder|Full_Adder:s0
+Ai => Decoder0.IN0
+Bi => Decoder0.IN1
+Ciin => Decoder0.IN2
+Si <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+Ciout <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|Ripple_Carry:RippleCarry_Adder|Full_Adder:s1
+Ai => Decoder0.IN0
+Bi => Decoder0.IN1
+Ciin => Decoder0.IN2
+Si <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+Ciout <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|Ripple_Carry:RippleCarry_Adder|Full_Adder:s2
+Ai => Decoder0.IN0
+Bi => Decoder0.IN1
+Ciin => Decoder0.IN2
+Si <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+Ciout <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|Ripple_Carry:RippleCarry_Adder|Full_Adder:s3
+Ai => Decoder0.IN0
+Bi => Decoder0.IN1
+Ciin => Decoder0.IN2
+Si <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+Ciout <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|Ripple_Carry:RippleCarry_Adder|Full_Adder:s4
+Ai => Decoder0.IN0
+Bi => Decoder0.IN1
+Ciin => Decoder0.IN2
+Si <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+Ciout <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|Ripple_Carry:RippleCarry_Adder|Full_Adder:s5
+Ai => Decoder0.IN0
+Bi => Decoder0.IN1
+Ciin => Decoder0.IN2
+Si <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+Ciout <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|Ripple_Carry:RippleCarry_Adder|Full_Adder:s6
+Ai => Decoder0.IN0
+Bi => Decoder0.IN1
+Ciin => Decoder0.IN2
+Si <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+Ciout <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|Ripple_Carry:RippleCarry_Adder|Full_Adder:s7
+Ai => Decoder0.IN0
+Bi => Decoder0.IN1
+Ciin => Decoder0.IN2
+Si <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+Ciout <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|Ripple_Carry:RippleCarry_Adder|Full_Adder:s8
+Ai => Decoder0.IN0
+Bi => Decoder0.IN1
+Ciin => Decoder0.IN2
+Si <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+Ciout <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|Ripple_Carry:RippleCarry_Adder|Full_Adder:s9
+Ai => Decoder0.IN0
+Bi => Decoder0.IN1
+Ciin => Decoder0.IN2
+Si <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+Ciout <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|Ripple_Carry:RippleCarry_Adder|Full_Adder:s10
+Ai => Decoder0.IN0
+Bi => Decoder0.IN1
+Ciin => Decoder0.IN2
+Si <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+Ciout <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|Controlled_incr_decr:Controlled_Exponent_Incrementor
+select => comb.IN0
+Cin => Cin.IN5
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+B[0] <= FAbehav:FA.si
+B[1] <= FAbehav:generatingBlock[1].FA.si
+B[2] <= FAbehav:generatingBlock[2].FA.si
+B[3] <= FAbehav:generatingBlock[3].FA.si
+B[4] <= FAbehav:generatingBlock[4].FA.si
+
+
+|LCD_Board_Test_LCD|Controlled_incr_decr:Controlled_Exponent_Incrementor|FAbehav:FA
+ai => Decoder0.IN0
+bi => Decoder0.IN1
+cini => Decoder0.IN2
+si <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+couti <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|Controlled_incr_decr:Controlled_Exponent_Incrementor|FAbehav:generatingBlock[1].FA
+ai => Decoder0.IN0
+bi => Decoder0.IN1
+cini => Decoder0.IN2
+si <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+couti <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|Controlled_incr_decr:Controlled_Exponent_Incrementor|FAbehav:generatingBlock[2].FA
+ai => Decoder0.IN0
+bi => Decoder0.IN1
+cini => Decoder0.IN2
+si <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+couti <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|Controlled_incr_decr:Controlled_Exponent_Incrementor|FAbehav:generatingBlock[3].FA
+ai => Decoder0.IN0
+bi => Decoder0.IN1
+cini => Decoder0.IN2
+si <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+couti <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|Controlled_incr_decr:Controlled_Exponent_Incrementor|FAbehav:generatingBlock[4].FA
+ai => Decoder0.IN0
+bi => Decoder0.IN1
+cini => Decoder0.IN2
+si <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+couti <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter
+in[0] => in[0].IN1
+in[1] => in[1].IN1
+in[2] => in[2].IN1
+in[3] => in[3].IN1
+in[4] => in[4].IN1
+in[5] => in[5].IN1
+in[6] => in[6].IN1
+in[7] => in[7].IN1
+in[8] => in[8].IN2
+in[9] => in[9].IN2
+in[10] => in[10].IN2
+control[0] => control[0].IN11
+control[1] => control[1].IN11
+control[2] => control[2].IN11
+control[3] => control[3].IN11
+out[0] <= mux2x1:ins3_10.out
+out[1] <= mux2x1:ins3_9.out
+out[2] <= mux2x1:ins3_8.out
+out[3] <= mux2x1:ins3_7.out
+out[4] <= mux2x1:ins3_6.out
+out[5] <= mux2x1:ins3_5.out
+out[6] <= mux2x1:ins3_4.out
+out[7] <= mux2x1:ins3_3.out
+out[8] <= mux2x1:ins3_2.out
+out[9] <= mux2x1:ins3_1.out
+out[10] <= mux2x1:ins3_0.out
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins0_0
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins0_1
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins0_2
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins0_3
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins0_4
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins0_5
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins0_6
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins0_7
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins0_8
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins0_9
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins0_10
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins1_0
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins1_1
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins1_2
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins1_3
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins1_4
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins1_5
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins1_6
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins1_7
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins1_8
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins1_9
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins1_10
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins2_0
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins2_1
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins2_2
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins2_3
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins2_4
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins2_5
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins2_6
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins2_7
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins2_8
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins2_9
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins2_10
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins3_0
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins3_1
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins3_2
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins3_3
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins3_4
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins3_5
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins3_6
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins3_7
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins3_8
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins3_9
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|rightShifter:Mantissa_Normalizer_Shifter|mux2x1:ins3_10
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|leftShifter:Mantissa_Normalizer_LShifter
+in[0] => in[0].IN2
+in[1] => in[1].IN2
+in[2] => in[2].IN2
+in[3] => in[3].IN2
+in[4] => in[4].IN2
+in[5] => in[5].IN2
+in[6] => in[6].IN2
+in[7] => in[7].IN2
+in[8] => in[8].IN2
+in[9] => in[9].IN2
+in[10] => in[10].IN1
+control[0] => control[0].IN11
+control[1] => control[1].IN11
+out[0] <= mux2x1:ins2_10.out
+out[1] <= mux2x1:ins2_9.out
+out[2] <= mux2x1:ins2_8.out
+out[3] <= mux2x1:ins2_7.out
+out[4] <= mux2x1:ins2_6.out
+out[5] <= mux2x1:ins2_5.out
+out[6] <= mux2x1:ins2_4.out
+out[7] <= mux2x1:ins2_3.out
+out[8] <= mux2x1:ins2_2.out
+out[9] <= mux2x1:ins2_1.out
+out[10] <= mux2x1:ins2_0.out
+
+
+|LCD_Board_Test_LCD|leftShifter:Mantissa_Normalizer_LShifter|mux2x1:ins3_0
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|leftShifter:Mantissa_Normalizer_LShifter|mux2x1:ins3_1
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|leftShifter:Mantissa_Normalizer_LShifter|mux2x1:ins3_2
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|leftShifter:Mantissa_Normalizer_LShifter|mux2x1:ins3_3
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|leftShifter:Mantissa_Normalizer_LShifter|mux2x1:ins3_4
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|leftShifter:Mantissa_Normalizer_LShifter|mux2x1:ins3_5
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|leftShifter:Mantissa_Normalizer_LShifter|mux2x1:ins3_6
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|leftShifter:Mantissa_Normalizer_LShifter|mux2x1:ins3_7
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|leftShifter:Mantissa_Normalizer_LShifter|mux2x1:ins3_8
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|leftShifter:Mantissa_Normalizer_LShifter|mux2x1:ins3_9
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|leftShifter:Mantissa_Normalizer_LShifter|mux2x1:ins3_10
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|leftShifter:Mantissa_Normalizer_LShifter|mux2x1:ins2_0
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|leftShifter:Mantissa_Normalizer_LShifter|mux2x1:ins2_1
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|leftShifter:Mantissa_Normalizer_LShifter|mux2x1:ins2_2
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|leftShifter:Mantissa_Normalizer_LShifter|mux2x1:ins2_3
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|leftShifter:Mantissa_Normalizer_LShifter|mux2x1:ins2_4
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|leftShifter:Mantissa_Normalizer_LShifter|mux2x1:ins2_5
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|leftShifter:Mantissa_Normalizer_LShifter|mux2x1:ins2_6
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|leftShifter:Mantissa_Normalizer_LShifter|mux2x1:ins2_7
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|leftShifter:Mantissa_Normalizer_LShifter|mux2x1:ins2_8
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|leftShifter:Mantissa_Normalizer_LShifter|mux2x1:ins2_9
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|leftShifter:Mantissa_Normalizer_LShifter|mux2x1:ins2_10
+in0 => out.DATAA
+in1 => out.DATAB
+sel => out.OUTPUTSELECT
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|LCD:comb_293
+clk => clk.IN1
+lcd_data[0] <> lcd_data[0]
+lcd_data[1] <> lcd_data[1]
+lcd_data[2] <> lcd_data[2]
+lcd_data[3] <> lcd_data[3]
+lcd_data[4] <> lcd_data[4]
+lcd_data[5] <> lcd_data[5]
+lcd_data[6] <> lcd_data[6]
+lcd_data[7] <> lcd_data[7]
+lcd_rs <= lcd_rs.DB_MAX_OUTPUT_PORT_TYPE
+lcd_rw <= lcd_rw.DB_MAX_OUTPUT_PORT_TYPE
+lcd_e <= lcd_e.DB_MAX_OUTPUT_PORT_TYPE
+lcd_reset => lcd_reset.IN1
+A[0] => bcd2disp:a_bcd2disp.bcd[0]
+A[1] => bcd2disp:a_bcd2disp.bcd[1]
+A[2] => bcd2disp:a_bcd2disp.bcd[2]
+A[3] => bcd2disp:a_bcd2disp.bcd[3]
+A[4] => bcd2disp:a_bcd2disp.bcd[4]
+A[5] => bcd2disp:a_bcd2disp.bcd[5]
+A[6] => bcd2disp:a_bcd2disp.bcd[6]
+A[7] => bcd2disp:a_bcd2disp.bcd[7]
+A[8] => bcd2disp:a_bcd2disp.bcd[8]
+A[9] => bcd2disp:a_bcd2disp.bcd[9]
+A[10] => bcd2disp:a_bcd2disp.bcd[10]
+A[11] => bcd2disp:a_bcd2disp.bcd[11]
+A[12] => bcd2disp:a_bcd2disp.bcd[12]
+A[13] => bcd2disp:a_bcd2disp.bcd[13]
+A[14] => bcd2disp:a_bcd2disp.bcd[14]
+A[15] => bcd2disp:a_bcd2disp.bcd[15]
+A[16] => ~NO_FANOUT~
+A[17] => ~NO_FANOUT~
+A[18] => ~NO_FANOUT~
+A[19] => ~NO_FANOUT~
+A[20] => ~NO_FANOUT~
+A[21] => ~NO_FANOUT~
+A[22] => ~NO_FANOUT~
+A[23] => ~NO_FANOUT~
+A[24] => ~NO_FANOUT~
+A[25] => ~NO_FANOUT~
+A[26] => ~NO_FANOUT~
+A[27] => ~NO_FANOUT~
+A[28] => ~NO_FANOUT~
+A[29] => ~NO_FANOUT~
+A[30] => ~NO_FANOUT~
+A[31] => ~NO_FANOUT~
+A[32] => ~NO_FANOUT~
+A[33] => ~NO_FANOUT~
+A[34] => ~NO_FANOUT~
+A[35] => ~NO_FANOUT~
+A[36] => ~NO_FANOUT~
+A[37] => ~NO_FANOUT~
+A[38] => ~NO_FANOUT~
+A[39] => ~NO_FANOUT~
+A[40] => ~NO_FANOUT~
+A[41] => ~NO_FANOUT~
+A[42] => ~NO_FANOUT~
+A[43] => ~NO_FANOUT~
+A[44] => ~NO_FANOUT~
+A[45] => ~NO_FANOUT~
+A[46] => ~NO_FANOUT~
+A[47] => ~NO_FANOUT~
+A[48] => ~NO_FANOUT~
+A[49] => ~NO_FANOUT~
+A[50] => ~NO_FANOUT~
+A[51] => ~NO_FANOUT~
+A[52] => ~NO_FANOUT~
+A[53] => ~NO_FANOUT~
+A[54] => ~NO_FANOUT~
+A[55] => ~NO_FANOUT~
+A[56] => ~NO_FANOUT~
+A[57] => ~NO_FANOUT~
+A[58] => ~NO_FANOUT~
+A[59] => ~NO_FANOUT~
+A[60] => ~NO_FANOUT~
+A[61] => ~NO_FANOUT~
+A[62] => ~NO_FANOUT~
+A[63] => ~NO_FANOUT~
+B[0] => bcd2disp:b_bcd2disp.bcd[0]
+B[1] => bcd2disp:b_bcd2disp.bcd[1]
+B[2] => bcd2disp:b_bcd2disp.bcd[2]
+B[3] => bcd2disp:b_bcd2disp.bcd[3]
+B[4] => bcd2disp:b_bcd2disp.bcd[4]
+B[5] => bcd2disp:b_bcd2disp.bcd[5]
+B[6] => bcd2disp:b_bcd2disp.bcd[6]
+B[7] => bcd2disp:b_bcd2disp.bcd[7]
+B[8] => bcd2disp:b_bcd2disp.bcd[8]
+B[9] => bcd2disp:b_bcd2disp.bcd[9]
+B[10] => bcd2disp:b_bcd2disp.bcd[10]
+B[11] => bcd2disp:b_bcd2disp.bcd[11]
+B[12] => bcd2disp:b_bcd2disp.bcd[12]
+B[13] => bcd2disp:b_bcd2disp.bcd[13]
+B[14] => bcd2disp:b_bcd2disp.bcd[14]
+B[15] => bcd2disp:b_bcd2disp.bcd[15]
+B[16] => ~NO_FANOUT~
+B[17] => ~NO_FANOUT~
+B[18] => ~NO_FANOUT~
+B[19] => ~NO_FANOUT~
+B[20] => ~NO_FANOUT~
+B[21] => ~NO_FANOUT~
+B[22] => ~NO_FANOUT~
+B[23] => ~NO_FANOUT~
+B[24] => ~NO_FANOUT~
+B[25] => ~NO_FANOUT~
+B[26] => ~NO_FANOUT~
+B[27] => ~NO_FANOUT~
+B[28] => ~NO_FANOUT~
+B[29] => ~NO_FANOUT~
+B[30] => ~NO_FANOUT~
+B[31] => ~NO_FANOUT~
+B[32] => ~NO_FANOUT~
+B[33] => ~NO_FANOUT~
+B[34] => ~NO_FANOUT~
+B[35] => ~NO_FANOUT~
+B[36] => ~NO_FANOUT~
+B[37] => ~NO_FANOUT~
+B[38] => ~NO_FANOUT~
+B[39] => ~NO_FANOUT~
+B[40] => ~NO_FANOUT~
+B[41] => ~NO_FANOUT~
+B[42] => ~NO_FANOUT~
+B[43] => ~NO_FANOUT~
+B[44] => ~NO_FANOUT~
+B[45] => ~NO_FANOUT~
+B[46] => ~NO_FANOUT~
+B[47] => ~NO_FANOUT~
+B[48] => ~NO_FANOUT~
+B[49] => ~NO_FANOUT~
+B[50] => ~NO_FANOUT~
+B[51] => ~NO_FANOUT~
+B[52] => ~NO_FANOUT~
+B[53] => ~NO_FANOUT~
+B[54] => ~NO_FANOUT~
+B[55] => ~NO_FANOUT~
+B[56] => ~NO_FANOUT~
+B[57] => ~NO_FANOUT~
+B[58] => ~NO_FANOUT~
+B[59] => ~NO_FANOUT~
+B[60] => ~NO_FANOUT~
+B[61] => ~NO_FANOUT~
+B[62] => ~NO_FANOUT~
+B[63] => ~NO_FANOUT~
+C[0] => bcd2disp:c_bcd2disp.bcd[0]
+C[1] => bcd2disp:c_bcd2disp.bcd[1]
+C[2] => bcd2disp:c_bcd2disp.bcd[2]
+C[3] => bcd2disp:c_bcd2disp.bcd[3]
+C[4] => bcd2disp:c_bcd2disp.bcd[4]
+C[5] => bcd2disp:c_bcd2disp.bcd[5]
+C[6] => bcd2disp:c_bcd2disp.bcd[6]
+C[7] => bcd2disp:c_bcd2disp.bcd[7]
+C[8] => bcd2disp:c_bcd2disp.bcd[8]
+C[9] => bcd2disp:c_bcd2disp.bcd[9]
+C[10] => bcd2disp:c_bcd2disp.bcd[10]
+C[11] => bcd2disp:c_bcd2disp.bcd[11]
+C[12] => bcd2disp:c_bcd2disp.bcd[12]
+C[13] => bcd2disp:c_bcd2disp.bcd[13]
+C[14] => bcd2disp:c_bcd2disp.bcd[14]
+C[15] => bcd2disp:c_bcd2disp.bcd[15]
+C[16] => ~NO_FANOUT~
+C[17] => ~NO_FANOUT~
+C[18] => ~NO_FANOUT~
+C[19] => ~NO_FANOUT~
+C[20] => ~NO_FANOUT~
+C[21] => ~NO_FANOUT~
+C[22] => ~NO_FANOUT~
+C[23] => ~NO_FANOUT~
+C[24] => ~NO_FANOUT~
+C[25] => ~NO_FANOUT~
+C[26] => ~NO_FANOUT~
+C[27] => ~NO_FANOUT~
+C[28] => ~NO_FANOUT~
+C[29] => ~NO_FANOUT~
+C[30] => ~NO_FANOUT~
+C[31] => ~NO_FANOUT~
+C[32] => ~NO_FANOUT~
+C[33] => ~NO_FANOUT~
+C[34] => ~NO_FANOUT~
+C[35] => ~NO_FANOUT~
+C[36] => ~NO_FANOUT~
+C[37] => ~NO_FANOUT~
+C[38] => ~NO_FANOUT~
+C[39] => ~NO_FANOUT~
+C[40] => ~NO_FANOUT~
+C[41] => ~NO_FANOUT~
+C[42] => ~NO_FANOUT~
+C[43] => ~NO_FANOUT~
+C[44] => ~NO_FANOUT~
+C[45] => ~NO_FANOUT~
+C[46] => ~NO_FANOUT~
+C[47] => ~NO_FANOUT~
+C[48] => ~NO_FANOUT~
+C[49] => ~NO_FANOUT~
+C[50] => ~NO_FANOUT~
+C[51] => ~NO_FANOUT~
+C[52] => ~NO_FANOUT~
+C[53] => ~NO_FANOUT~
+C[54] => ~NO_FANOUT~
+C[55] => ~NO_FANOUT~
+C[56] => ~NO_FANOUT~
+C[57] => ~NO_FANOUT~
+C[58] => ~NO_FANOUT~
+C[59] => ~NO_FANOUT~
+C[60] => ~NO_FANOUT~
+C[61] => ~NO_FANOUT~
+C[62] => ~NO_FANOUT~
+C[63] => ~NO_FANOUT~
+Operation[0] => calculator_operation_display:comb_483.Operation[0]
+Operation[1] => calculator_operation_display:comb_483.Operation[1]
+
+
+|LCD_Board_Test_LCD|LCD:comb_293|bcd2disp:a_bcd2disp
+sign => disp[19][3].DATAIN
+sign => disp[19][2].DATAIN
+sign => disp[19][0].DATAIN
+bcd[0] => Decoder15.IN0
+bcd[1] => Decoder14.IN0
+bcd[2] => Decoder13.IN0
+bcd[3] => Decoder12.IN0
+bcd[4] => Decoder11.IN0
+bcd[5] => Decoder10.IN0
+bcd[6] => Decoder9.IN0
+bcd[7] => Decoder8.IN0
+bcd[8] => Decoder7.IN0
+bcd[9] => Decoder6.IN0
+bcd[10] => Decoder5.IN0
+bcd[11] => Decoder4.IN0
+bcd[12] => Decoder3.IN0
+bcd[13] => Decoder2.IN0
+bcd[14] => Decoder1.IN0
+bcd[15] => Decoder0.IN0
+disp[0][0] <= Decoder15.DB_MAX_OUTPUT_PORT_TYPE
+disp[0][1] <= <GND>
+disp[0][2] <= <GND>
+disp[0][3] <= <GND>
+disp[0][4] <= <VCC>
+disp[0][5] <= <VCC>
+disp[0][6] <= <GND>
+disp[0][7] <= <GND>
+disp[1][0] <= Decoder14.DB_MAX_OUTPUT_PORT_TYPE
+disp[1][1] <= <GND>
+disp[1][2] <= <GND>
+disp[1][3] <= <GND>
+disp[1][4] <= <VCC>
+disp[1][5] <= <VCC>
+disp[1][6] <= <GND>
+disp[1][7] <= <GND>
+disp[2][0] <= Decoder13.DB_MAX_OUTPUT_PORT_TYPE
+disp[2][1] <= <GND>
+disp[2][2] <= <GND>
+disp[2][3] <= <GND>
+disp[2][4] <= <VCC>
+disp[2][5] <= <VCC>
+disp[2][6] <= <GND>
+disp[2][7] <= <GND>
+disp[3][0] <= Decoder12.DB_MAX_OUTPUT_PORT_TYPE
+disp[3][1] <= <GND>
+disp[3][2] <= <GND>
+disp[3][3] <= <GND>
+disp[3][4] <= <VCC>
+disp[3][5] <= <VCC>
+disp[3][6] <= <GND>
+disp[3][7] <= <GND>
+disp[4][0] <= Decoder11.DB_MAX_OUTPUT_PORT_TYPE
+disp[4][1] <= <GND>
+disp[4][2] <= <GND>
+disp[4][3] <= <GND>
+disp[4][4] <= <VCC>
+disp[4][5] <= <VCC>
+disp[4][6] <= <GND>
+disp[4][7] <= <GND>
+disp[5][0] <= Decoder10.DB_MAX_OUTPUT_PORT_TYPE
+disp[5][1] <= <GND>
+disp[5][2] <= <GND>
+disp[5][3] <= <GND>
+disp[5][4] <= <VCC>
+disp[5][5] <= <VCC>
+disp[5][6] <= <GND>
+disp[5][7] <= <GND>
+disp[6][0] <= Decoder9.DB_MAX_OUTPUT_PORT_TYPE
+disp[6][1] <= <GND>
+disp[6][2] <= <GND>
+disp[6][3] <= <GND>
+disp[6][4] <= <VCC>
+disp[6][5] <= <VCC>
+disp[6][6] <= <GND>
+disp[6][7] <= <GND>
+disp[7][0] <= Decoder8.DB_MAX_OUTPUT_PORT_TYPE
+disp[7][1] <= <GND>
+disp[7][2] <= <GND>
+disp[7][3] <= <GND>
+disp[7][4] <= <VCC>
+disp[7][5] <= <VCC>
+disp[7][6] <= <GND>
+disp[7][7] <= <GND>
+disp[8][0] <= Decoder7.DB_MAX_OUTPUT_PORT_TYPE
+disp[8][1] <= <GND>
+disp[8][2] <= <GND>
+disp[8][3] <= <GND>
+disp[8][4] <= <VCC>
+disp[8][5] <= <VCC>
+disp[8][6] <= <GND>
+disp[8][7] <= <GND>
+disp[9][0] <= Decoder6.DB_MAX_OUTPUT_PORT_TYPE
+disp[9][1] <= <GND>
+disp[9][2] <= <GND>
+disp[9][3] <= <GND>
+disp[9][4] <= <VCC>
+disp[9][5] <= <VCC>
+disp[9][6] <= <GND>
+disp[9][7] <= <GND>
+disp[10][0] <= Decoder5.DB_MAX_OUTPUT_PORT_TYPE
+disp[10][1] <= <GND>
+disp[10][2] <= <GND>
+disp[10][3] <= <GND>
+disp[10][4] <= <VCC>
+disp[10][5] <= <VCC>
+disp[10][6] <= <GND>
+disp[10][7] <= <GND>
+disp[11][0] <= Decoder4.DB_MAX_OUTPUT_PORT_TYPE
+disp[11][1] <= <GND>
+disp[11][2] <= <GND>
+disp[11][3] <= <GND>
+disp[11][4] <= <VCC>
+disp[11][5] <= <VCC>
+disp[11][6] <= <GND>
+disp[11][7] <= <GND>
+disp[12][0] <= Decoder3.DB_MAX_OUTPUT_PORT_TYPE
+disp[12][1] <= <GND>
+disp[12][2] <= <GND>
+disp[12][3] <= <GND>
+disp[12][4] <= <VCC>
+disp[12][5] <= <VCC>
+disp[12][6] <= <GND>
+disp[12][7] <= <GND>
+disp[13][0] <= Decoder2.DB_MAX_OUTPUT_PORT_TYPE
+disp[13][1] <= <GND>
+disp[13][2] <= <GND>
+disp[13][3] <= <GND>
+disp[13][4] <= <VCC>
+disp[13][5] <= <VCC>
+disp[13][6] <= <GND>
+disp[13][7] <= <GND>
+disp[14][0] <= Decoder1.DB_MAX_OUTPUT_PORT_TYPE
+disp[14][1] <= <GND>
+disp[14][2] <= <GND>
+disp[14][3] <= <GND>
+disp[14][4] <= <VCC>
+disp[14][5] <= <VCC>
+disp[14][6] <= <GND>
+disp[14][7] <= <GND>
+disp[15][0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+disp[15][1] <= <GND>
+disp[15][2] <= <GND>
+disp[15][3] <= <GND>
+disp[15][4] <= <VCC>
+disp[15][5] <= <VCC>
+disp[15][6] <= <GND>
+disp[15][7] <= <GND>
+disp[16][0] <= <GND>
+disp[16][1] <= <GND>
+disp[16][2] <= <GND>
+disp[16][3] <= <GND>
+disp[16][4] <= <GND>
+disp[16][5] <= <VCC>
+disp[16][6] <= <GND>
+disp[16][7] <= <GND>
+disp[17][0] <= <GND>
+disp[17][1] <= <GND>
+disp[17][2] <= <GND>
+disp[17][3] <= <GND>
+disp[17][4] <= <GND>
+disp[17][5] <= <VCC>
+disp[17][6] <= <GND>
+disp[17][7] <= <GND>
+disp[18][0] <= <GND>
+disp[18][1] <= <GND>
+disp[18][2] <= <GND>
+disp[18][3] <= <GND>
+disp[18][4] <= <GND>
+disp[18][5] <= <VCC>
+disp[18][6] <= <GND>
+disp[18][7] <= <GND>
+disp[19][0] <= sign.DB_MAX_OUTPUT_PORT_TYPE
+disp[19][1] <= <GND>
+disp[19][2] <= sign.DB_MAX_OUTPUT_PORT_TYPE
+disp[19][3] <= sign.DB_MAX_OUTPUT_PORT_TYPE
+disp[19][4] <= <GND>
+disp[19][5] <= <VCC>
+disp[19][6] <= <GND>
+disp[19][7] <= <GND>
+
+
+|LCD_Board_Test_LCD|LCD:comb_293|bcd2disp:b_bcd2disp
+sign => disp[19][3].DATAIN
+sign => disp[19][2].DATAIN
+sign => disp[19][0].DATAIN
+bcd[0] => Decoder15.IN0
+bcd[1] => Decoder14.IN0
+bcd[2] => Decoder13.IN0
+bcd[3] => Decoder12.IN0
+bcd[4] => Decoder11.IN0
+bcd[5] => Decoder10.IN0
+bcd[6] => Decoder9.IN0
+bcd[7] => Decoder8.IN0
+bcd[8] => Decoder7.IN0
+bcd[9] => Decoder6.IN0
+bcd[10] => Decoder5.IN0
+bcd[11] => Decoder4.IN0
+bcd[12] => Decoder3.IN0
+bcd[13] => Decoder2.IN0
+bcd[14] => Decoder1.IN0
+bcd[15] => Decoder0.IN0
+disp[0][0] <= Decoder15.DB_MAX_OUTPUT_PORT_TYPE
+disp[0][1] <= <GND>
+disp[0][2] <= <GND>
+disp[0][3] <= <GND>
+disp[0][4] <= <VCC>
+disp[0][5] <= <VCC>
+disp[0][6] <= <GND>
+disp[0][7] <= <GND>
+disp[1][0] <= Decoder14.DB_MAX_OUTPUT_PORT_TYPE
+disp[1][1] <= <GND>
+disp[1][2] <= <GND>
+disp[1][3] <= <GND>
+disp[1][4] <= <VCC>
+disp[1][5] <= <VCC>
+disp[1][6] <= <GND>
+disp[1][7] <= <GND>
+disp[2][0] <= Decoder13.DB_MAX_OUTPUT_PORT_TYPE
+disp[2][1] <= <GND>
+disp[2][2] <= <GND>
+disp[2][3] <= <GND>
+disp[2][4] <= <VCC>
+disp[2][5] <= <VCC>
+disp[2][6] <= <GND>
+disp[2][7] <= <GND>
+disp[3][0] <= Decoder12.DB_MAX_OUTPUT_PORT_TYPE
+disp[3][1] <= <GND>
+disp[3][2] <= <GND>
+disp[3][3] <= <GND>
+disp[3][4] <= <VCC>
+disp[3][5] <= <VCC>
+disp[3][6] <= <GND>
+disp[3][7] <= <GND>
+disp[4][0] <= Decoder11.DB_MAX_OUTPUT_PORT_TYPE
+disp[4][1] <= <GND>
+disp[4][2] <= <GND>
+disp[4][3] <= <GND>
+disp[4][4] <= <VCC>
+disp[4][5] <= <VCC>
+disp[4][6] <= <GND>
+disp[4][7] <= <GND>
+disp[5][0] <= Decoder10.DB_MAX_OUTPUT_PORT_TYPE
+disp[5][1] <= <GND>
+disp[5][2] <= <GND>
+disp[5][3] <= <GND>
+disp[5][4] <= <VCC>
+disp[5][5] <= <VCC>
+disp[5][6] <= <GND>
+disp[5][7] <= <GND>
+disp[6][0] <= Decoder9.DB_MAX_OUTPUT_PORT_TYPE
+disp[6][1] <= <GND>
+disp[6][2] <= <GND>
+disp[6][3] <= <GND>
+disp[6][4] <= <VCC>
+disp[6][5] <= <VCC>
+disp[6][6] <= <GND>
+disp[6][7] <= <GND>
+disp[7][0] <= Decoder8.DB_MAX_OUTPUT_PORT_TYPE
+disp[7][1] <= <GND>
+disp[7][2] <= <GND>
+disp[7][3] <= <GND>
+disp[7][4] <= <VCC>
+disp[7][5] <= <VCC>
+disp[7][6] <= <GND>
+disp[7][7] <= <GND>
+disp[8][0] <= Decoder7.DB_MAX_OUTPUT_PORT_TYPE
+disp[8][1] <= <GND>
+disp[8][2] <= <GND>
+disp[8][3] <= <GND>
+disp[8][4] <= <VCC>
+disp[8][5] <= <VCC>
+disp[8][6] <= <GND>
+disp[8][7] <= <GND>
+disp[9][0] <= Decoder6.DB_MAX_OUTPUT_PORT_TYPE
+disp[9][1] <= <GND>
+disp[9][2] <= <GND>
+disp[9][3] <= <GND>
+disp[9][4] <= <VCC>
+disp[9][5] <= <VCC>
+disp[9][6] <= <GND>
+disp[9][7] <= <GND>
+disp[10][0] <= Decoder5.DB_MAX_OUTPUT_PORT_TYPE
+disp[10][1] <= <GND>
+disp[10][2] <= <GND>
+disp[10][3] <= <GND>
+disp[10][4] <= <VCC>
+disp[10][5] <= <VCC>
+disp[10][6] <= <GND>
+disp[10][7] <= <GND>
+disp[11][0] <= Decoder4.DB_MAX_OUTPUT_PORT_TYPE
+disp[11][1] <= <GND>
+disp[11][2] <= <GND>
+disp[11][3] <= <GND>
+disp[11][4] <= <VCC>
+disp[11][5] <= <VCC>
+disp[11][6] <= <GND>
+disp[11][7] <= <GND>
+disp[12][0] <= Decoder3.DB_MAX_OUTPUT_PORT_TYPE
+disp[12][1] <= <GND>
+disp[12][2] <= <GND>
+disp[12][3] <= <GND>
+disp[12][4] <= <VCC>
+disp[12][5] <= <VCC>
+disp[12][6] <= <GND>
+disp[12][7] <= <GND>
+disp[13][0] <= Decoder2.DB_MAX_OUTPUT_PORT_TYPE
+disp[13][1] <= <GND>
+disp[13][2] <= <GND>
+disp[13][3] <= <GND>
+disp[13][4] <= <VCC>
+disp[13][5] <= <VCC>
+disp[13][6] <= <GND>
+disp[13][7] <= <GND>
+disp[14][0] <= Decoder1.DB_MAX_OUTPUT_PORT_TYPE
+disp[14][1] <= <GND>
+disp[14][2] <= <GND>
+disp[14][3] <= <GND>
+disp[14][4] <= <VCC>
+disp[14][5] <= <VCC>
+disp[14][6] <= <GND>
+disp[14][7] <= <GND>
+disp[15][0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+disp[15][1] <= <GND>
+disp[15][2] <= <GND>
+disp[15][3] <= <GND>
+disp[15][4] <= <VCC>
+disp[15][5] <= <VCC>
+disp[15][6] <= <GND>
+disp[15][7] <= <GND>
+disp[16][0] <= <GND>
+disp[16][1] <= <GND>
+disp[16][2] <= <GND>
+disp[16][3] <= <GND>
+disp[16][4] <= <GND>
+disp[16][5] <= <VCC>
+disp[16][6] <= <GND>
+disp[16][7] <= <GND>
+disp[17][0] <= <GND>
+disp[17][1] <= <GND>
+disp[17][2] <= <GND>
+disp[17][3] <= <GND>
+disp[17][4] <= <GND>
+disp[17][5] <= <VCC>
+disp[17][6] <= <GND>
+disp[17][7] <= <GND>
+disp[18][0] <= <GND>
+disp[18][1] <= <GND>
+disp[18][2] <= <GND>
+disp[18][3] <= <GND>
+disp[18][4] <= <GND>
+disp[18][5] <= <VCC>
+disp[18][6] <= <GND>
+disp[18][7] <= <GND>
+disp[19][0] <= sign.DB_MAX_OUTPUT_PORT_TYPE
+disp[19][1] <= <GND>
+disp[19][2] <= sign.DB_MAX_OUTPUT_PORT_TYPE
+disp[19][3] <= sign.DB_MAX_OUTPUT_PORT_TYPE
+disp[19][4] <= <GND>
+disp[19][5] <= <VCC>
+disp[19][6] <= <GND>
+disp[19][7] <= <GND>
+
+
+|LCD_Board_Test_LCD|LCD:comb_293|bcd2disp:c_bcd2disp
+sign => disp[19][3].DATAIN
+sign => disp[19][2].DATAIN
+sign => disp[19][0].DATAIN
+bcd[0] => Decoder15.IN0
+bcd[1] => Decoder14.IN0
+bcd[2] => Decoder13.IN0
+bcd[3] => Decoder12.IN0
+bcd[4] => Decoder11.IN0
+bcd[5] => Decoder10.IN0
+bcd[6] => Decoder9.IN0
+bcd[7] => Decoder8.IN0
+bcd[8] => Decoder7.IN0
+bcd[9] => Decoder6.IN0
+bcd[10] => Decoder5.IN0
+bcd[11] => Decoder4.IN0
+bcd[12] => Decoder3.IN0
+bcd[13] => Decoder2.IN0
+bcd[14] => Decoder1.IN0
+bcd[15] => Decoder0.IN0
+disp[0][0] <= Decoder15.DB_MAX_OUTPUT_PORT_TYPE
+disp[0][1] <= <GND>
+disp[0][2] <= <GND>
+disp[0][3] <= <GND>
+disp[0][4] <= <VCC>
+disp[0][5] <= <VCC>
+disp[0][6] <= <GND>
+disp[0][7] <= <GND>
+disp[1][0] <= Decoder14.DB_MAX_OUTPUT_PORT_TYPE
+disp[1][1] <= <GND>
+disp[1][2] <= <GND>
+disp[1][3] <= <GND>
+disp[1][4] <= <VCC>
+disp[1][5] <= <VCC>
+disp[1][6] <= <GND>
+disp[1][7] <= <GND>
+disp[2][0] <= Decoder13.DB_MAX_OUTPUT_PORT_TYPE
+disp[2][1] <= <GND>
+disp[2][2] <= <GND>
+disp[2][3] <= <GND>
+disp[2][4] <= <VCC>
+disp[2][5] <= <VCC>
+disp[2][6] <= <GND>
+disp[2][7] <= <GND>
+disp[3][0] <= Decoder12.DB_MAX_OUTPUT_PORT_TYPE
+disp[3][1] <= <GND>
+disp[3][2] <= <GND>
+disp[3][3] <= <GND>
+disp[3][4] <= <VCC>
+disp[3][5] <= <VCC>
+disp[3][6] <= <GND>
+disp[3][7] <= <GND>
+disp[4][0] <= Decoder11.DB_MAX_OUTPUT_PORT_TYPE
+disp[4][1] <= <GND>
+disp[4][2] <= <GND>
+disp[4][3] <= <GND>
+disp[4][4] <= <VCC>
+disp[4][5] <= <VCC>
+disp[4][6] <= <GND>
+disp[4][7] <= <GND>
+disp[5][0] <= Decoder10.DB_MAX_OUTPUT_PORT_TYPE
+disp[5][1] <= <GND>
+disp[5][2] <= <GND>
+disp[5][3] <= <GND>
+disp[5][4] <= <VCC>
+disp[5][5] <= <VCC>
+disp[5][6] <= <GND>
+disp[5][7] <= <GND>
+disp[6][0] <= Decoder9.DB_MAX_OUTPUT_PORT_TYPE
+disp[6][1] <= <GND>
+disp[6][2] <= <GND>
+disp[6][3] <= <GND>
+disp[6][4] <= <VCC>
+disp[6][5] <= <VCC>
+disp[6][6] <= <GND>
+disp[6][7] <= <GND>
+disp[7][0] <= Decoder8.DB_MAX_OUTPUT_PORT_TYPE
+disp[7][1] <= <GND>
+disp[7][2] <= <GND>
+disp[7][3] <= <GND>
+disp[7][4] <= <VCC>
+disp[7][5] <= <VCC>
+disp[7][6] <= <GND>
+disp[7][7] <= <GND>
+disp[8][0] <= Decoder7.DB_MAX_OUTPUT_PORT_TYPE
+disp[8][1] <= <GND>
+disp[8][2] <= <GND>
+disp[8][3] <= <GND>
+disp[8][4] <= <VCC>
+disp[8][5] <= <VCC>
+disp[8][6] <= <GND>
+disp[8][7] <= <GND>
+disp[9][0] <= Decoder6.DB_MAX_OUTPUT_PORT_TYPE
+disp[9][1] <= <GND>
+disp[9][2] <= <GND>
+disp[9][3] <= <GND>
+disp[9][4] <= <VCC>
+disp[9][5] <= <VCC>
+disp[9][6] <= <GND>
+disp[9][7] <= <GND>
+disp[10][0] <= Decoder5.DB_MAX_OUTPUT_PORT_TYPE
+disp[10][1] <= <GND>
+disp[10][2] <= <GND>
+disp[10][3] <= <GND>
+disp[10][4] <= <VCC>
+disp[10][5] <= <VCC>
+disp[10][6] <= <GND>
+disp[10][7] <= <GND>
+disp[11][0] <= Decoder4.DB_MAX_OUTPUT_PORT_TYPE
+disp[11][1] <= <GND>
+disp[11][2] <= <GND>
+disp[11][3] <= <GND>
+disp[11][4] <= <VCC>
+disp[11][5] <= <VCC>
+disp[11][6] <= <GND>
+disp[11][7] <= <GND>
+disp[12][0] <= Decoder3.DB_MAX_OUTPUT_PORT_TYPE
+disp[12][1] <= <GND>
+disp[12][2] <= <GND>
+disp[12][3] <= <GND>
+disp[12][4] <= <VCC>
+disp[12][5] <= <VCC>
+disp[12][6] <= <GND>
+disp[12][7] <= <GND>
+disp[13][0] <= Decoder2.DB_MAX_OUTPUT_PORT_TYPE
+disp[13][1] <= <GND>
+disp[13][2] <= <GND>
+disp[13][3] <= <GND>
+disp[13][4] <= <VCC>
+disp[13][5] <= <VCC>
+disp[13][6] <= <GND>
+disp[13][7] <= <GND>
+disp[14][0] <= Decoder1.DB_MAX_OUTPUT_PORT_TYPE
+disp[14][1] <= <GND>
+disp[14][2] <= <GND>
+disp[14][3] <= <GND>
+disp[14][4] <= <VCC>
+disp[14][5] <= <VCC>
+disp[14][6] <= <GND>
+disp[14][7] <= <GND>
+disp[15][0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+disp[15][1] <= <GND>
+disp[15][2] <= <GND>
+disp[15][3] <= <GND>
+disp[15][4] <= <VCC>
+disp[15][5] <= <VCC>
+disp[15][6] <= <GND>
+disp[15][7] <= <GND>
+disp[16][0] <= <GND>
+disp[16][1] <= <GND>
+disp[16][2] <= <GND>
+disp[16][3] <= <GND>
+disp[16][4] <= <GND>
+disp[16][5] <= <VCC>
+disp[16][6] <= <GND>
+disp[16][7] <= <GND>
+disp[17][0] <= <GND>
+disp[17][1] <= <GND>
+disp[17][2] <= <GND>
+disp[17][3] <= <GND>
+disp[17][4] <= <GND>
+disp[17][5] <= <VCC>
+disp[17][6] <= <GND>
+disp[17][7] <= <GND>
+disp[18][0] <= <GND>
+disp[18][1] <= <GND>
+disp[18][2] <= <GND>
+disp[18][3] <= <GND>
+disp[18][4] <= <GND>
+disp[18][5] <= <VCC>
+disp[18][6] <= <GND>
+disp[18][7] <= <GND>
+disp[19][0] <= sign.DB_MAX_OUTPUT_PORT_TYPE
+disp[19][1] <= <GND>
+disp[19][2] <= sign.DB_MAX_OUTPUT_PORT_TYPE
+disp[19][3] <= sign.DB_MAX_OUTPUT_PORT_TYPE
+disp[19][4] <= <GND>
+disp[19][5] <= <VCC>
+disp[19][6] <= <GND>
+disp[19][7] <= <GND>
+
+
+|LCD_Board_Test_LCD|LCD:comb_293|calculator_operation_display:comb_483
+Operation[0] => Decoder0.IN1
+Operation[0] => disp[19][1].DATAIN
+Operation[1] => Decoder0.IN0
+disp[0][0] <= <VCC>
+disp[0][1] <= <VCC>
+disp[0][2] <= <VCC>
+disp[0][3] <= <VCC>
+disp[0][4] <= <VCC>
+disp[0][5] <= <GND>
+disp[0][6] <= <VCC>
+disp[0][7] <= <GND>
+disp[1][0] <= <VCC>
+disp[1][1] <= <VCC>
+disp[1][2] <= <VCC>
+disp[1][3] <= <VCC>
+disp[1][4] <= <VCC>
+disp[1][5] <= <GND>
+disp[1][6] <= <VCC>
+disp[1][7] <= <GND>
+disp[2][0] <= <VCC>
+disp[2][1] <= <VCC>
+disp[2][2] <= <VCC>
+disp[2][3] <= <VCC>
+disp[2][4] <= <VCC>
+disp[2][5] <= <GND>
+disp[2][6] <= <VCC>
+disp[2][7] <= <GND>
+disp[3][0] <= <VCC>
+disp[3][1] <= <VCC>
+disp[3][2] <= <VCC>
+disp[3][3] <= <VCC>
+disp[3][4] <= <VCC>
+disp[3][5] <= <GND>
+disp[3][6] <= <VCC>
+disp[3][7] <= <GND>
+disp[4][0] <= <VCC>
+disp[4][1] <= <VCC>
+disp[4][2] <= <VCC>
+disp[4][3] <= <VCC>
+disp[4][4] <= <VCC>
+disp[4][5] <= <GND>
+disp[4][6] <= <VCC>
+disp[4][7] <= <GND>
+disp[5][0] <= <VCC>
+disp[5][1] <= <VCC>
+disp[5][2] <= <VCC>
+disp[5][3] <= <VCC>
+disp[5][4] <= <VCC>
+disp[5][5] <= <GND>
+disp[5][6] <= <VCC>
+disp[5][7] <= <GND>
+disp[6][0] <= <VCC>
+disp[6][1] <= <VCC>
+disp[6][2] <= <VCC>
+disp[6][3] <= <VCC>
+disp[6][4] <= <VCC>
+disp[6][5] <= <GND>
+disp[6][6] <= <VCC>
+disp[6][7] <= <GND>
+disp[7][0] <= <VCC>
+disp[7][1] <= <VCC>
+disp[7][2] <= <VCC>
+disp[7][3] <= <VCC>
+disp[7][4] <= <VCC>
+disp[7][5] <= <GND>
+disp[7][6] <= <VCC>
+disp[7][7] <= <GND>
+disp[8][0] <= <VCC>
+disp[8][1] <= <VCC>
+disp[8][2] <= <VCC>
+disp[8][3] <= <VCC>
+disp[8][4] <= <VCC>
+disp[8][5] <= <GND>
+disp[8][6] <= <VCC>
+disp[8][7] <= <GND>
+disp[9][0] <= <VCC>
+disp[9][1] <= <VCC>
+disp[9][2] <= <VCC>
+disp[9][3] <= <VCC>
+disp[9][4] <= <VCC>
+disp[9][5] <= <GND>
+disp[9][6] <= <VCC>
+disp[9][7] <= <GND>
+disp[10][0] <= <VCC>
+disp[10][1] <= <VCC>
+disp[10][2] <= <VCC>
+disp[10][3] <= <VCC>
+disp[10][4] <= <VCC>
+disp[10][5] <= <GND>
+disp[10][6] <= <VCC>
+disp[10][7] <= <GND>
+disp[11][0] <= <VCC>
+disp[11][1] <= <VCC>
+disp[11][2] <= <VCC>
+disp[11][3] <= <VCC>
+disp[11][4] <= <VCC>
+disp[11][5] <= <GND>
+disp[11][6] <= <VCC>
+disp[11][7] <= <GND>
+disp[12][0] <= <VCC>
+disp[12][1] <= <VCC>
+disp[12][2] <= <VCC>
+disp[12][3] <= <VCC>
+disp[12][4] <= <VCC>
+disp[12][5] <= <GND>
+disp[12][6] <= <VCC>
+disp[12][7] <= <GND>
+disp[13][0] <= <VCC>
+disp[13][1] <= <VCC>
+disp[13][2] <= <VCC>
+disp[13][3] <= <VCC>
+disp[13][4] <= <VCC>
+disp[13][5] <= <GND>
+disp[13][6] <= <VCC>
+disp[13][7] <= <GND>
+disp[14][0] <= <VCC>
+disp[14][1] <= <VCC>
+disp[14][2] <= <VCC>
+disp[14][3] <= <VCC>
+disp[14][4] <= <VCC>
+disp[14][5] <= <GND>
+disp[14][6] <= <VCC>
+disp[14][7] <= <GND>
+disp[15][0] <= <VCC>
+disp[15][1] <= <VCC>
+disp[15][2] <= <VCC>
+disp[15][3] <= <VCC>
+disp[15][4] <= <VCC>
+disp[15][5] <= <GND>
+disp[15][6] <= <VCC>
+disp[15][7] <= <GND>
+disp[16][0] <= <VCC>
+disp[16][1] <= <VCC>
+disp[16][2] <= <VCC>
+disp[16][3] <= <VCC>
+disp[16][4] <= <VCC>
+disp[16][5] <= <GND>
+disp[16][6] <= <VCC>
+disp[16][7] <= <GND>
+disp[17][0] <= <VCC>
+disp[17][1] <= <VCC>
+disp[17][2] <= <VCC>
+disp[17][3] <= <VCC>
+disp[17][4] <= <VCC>
+disp[17][5] <= <GND>
+disp[17][6] <= <VCC>
+disp[17][7] <= <GND>
+disp[18][0] <= <VCC>
+disp[18][1] <= <VCC>
+disp[18][2] <= <VCC>
+disp[18][3] <= <VCC>
+disp[18][4] <= <VCC>
+disp[18][5] <= <GND>
+disp[18][6] <= <VCC>
+disp[18][7] <= <GND>
+disp[19][0] <= disp.DB_MAX_OUTPUT_PORT_TYPE
+disp[19][1] <= Operation[0].DB_MAX_OUTPUT_PORT_TYPE
+disp[19][2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+disp[19][3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+disp[19][4] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+disp[19][5] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+disp[19][6] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+disp[19][7] <= <GND>
+
+
+|LCD_Board_Test_LCD|LCD:comb_293|LCD_Initilizer:comb_484
+clk => E~reg0.CLK
+clk => DATA[0]~reg0.CLK
+clk => DATA[0]~en.CLK
+clk => DATA[1]~reg0.CLK
+clk => DATA[1]~en.CLK
+clk => DATA[2]~reg0.CLK
+clk => DATA[2]~en.CLK
+clk => DATA[3]~reg0.CLK
+clk => DATA[3]~en.CLK
+clk => DATA[4]~reg0.CLK
+clk => DATA[4]~en.CLK
+clk => DATA[5]~reg0.CLK
+clk => DATA[5]~en.CLK
+clk => DATA[6]~reg0.CLK
+clk => DATA[6]~en.CLK
+clk => DATA[7]~reg0.CLK
+clk => DATA[7]~en.CLK
+clk => RW~reg0.CLK
+clk => RS~reg0.CLK
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+clk => counter[4].CLK
+clk => counter[5].CLK
+clk => counter[6].CLK
+clk => counter[7].CLK
+clk => counter[8].CLK
+clk => counter[9].CLK
+clk => counter[10].CLK
+clk => counter[11].CLK
+clk => counter[12].CLK
+clk => counter[13].CLK
+clk => counter[14].CLK
+clk => counter[15].CLK
+clk => counter[16].CLK
+clk => counter[17].CLK
+clk => counter[18].CLK
+clk => counter[19].CLK
+clk => counter[20].CLK
+clk => counter[21].CLK
+clk => counter[22].CLK
+clk => counter[23].CLK
+clk => counter[24].CLK
+clk => counter[25].CLK
+clk => counter[26].CLK
+clk => counter[27].CLK
+clk => counter[28].CLK
+clk => counter[29].CLK
+clk => counter[30].CLK
+clk => counter[31].CLK
+clk => done~reg0.CLK
+clk => next_state~1.DATAIN
+clk => state~1.DATAIN
+reset => counter[0].ACLR
+reset => counter[1].ACLR
+reset => counter[2].ACLR
+reset => counter[3].ACLR
+reset => counter[4].ACLR
+reset => counter[5].ACLR
+reset => counter[6].ACLR
+reset => counter[7].ACLR
+reset => counter[8].ACLR
+reset => counter[9].ACLR
+reset => counter[10].ACLR
+reset => counter[11].ACLR
+reset => counter[12].ACLR
+reset => counter[13].ACLR
+reset => counter[14].ACLR
+reset => counter[15].ACLR
+reset => counter[16].ACLR
+reset => counter[17].ACLR
+reset => counter[18].ACLR
+reset => counter[19].ACLR
+reset => counter[20].ACLR
+reset => counter[21].ACLR
+reset => counter[22].ACLR
+reset => counter[23].ACLR
+reset => counter[24].ACLR
+reset => counter[25].ACLR
+reset => counter[26].ACLR
+reset => counter[27].ACLR
+reset => counter[28].ACLR
+reset => counter[29].ACLR
+reset => counter[30].ACLR
+reset => counter[31].ACLR
+reset => done~reg0.ACLR
+reset => next_state~3.DATAIN
+reset => state~3.DATAIN
+reset => DATA[7].IN1
+reset => E~reg0.ENA
+reset => RS~reg0.ENA
+reset => RW~reg0.ENA
+RS <= RS~reg0.DB_MAX_OUTPUT_PORT_TYPE
+RW <= RW~reg0.DB_MAX_OUTPUT_PORT_TYPE
+E <= E~reg0.DB_MAX_OUTPUT_PORT_TYPE
+DATA[0] <> DATA[0]
+DATA[1] <> DATA[1]
+DATA[2] <> DATA[2]
+DATA[3] <> DATA[3]
+DATA[4] <> DATA[4]
+DATA[5] <> DATA[5]
+DATA[6] <> DATA[6]
+DATA[7] <> DATA[7]
+done <= done~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|LCD_Board_Test_LCD|LCD:comb_293|LCD_Driver:comb_1125
+clk => E~reg0.CLK
+clk => DATA[0]~reg0.CLK
+clk => DATA[0]~en.CLK
+clk => DATA[1]~reg0.CLK
+clk => DATA[1]~en.CLK
+clk => DATA[2]~reg0.CLK
+clk => DATA[2]~en.CLK
+clk => DATA[3]~reg0.CLK
+clk => DATA[3]~en.CLK
+clk => DATA[4]~reg0.CLK
+clk => DATA[4]~en.CLK
+clk => DATA[5]~reg0.CLK
+clk => DATA[5]~en.CLK
+clk => DATA[6]~reg0.CLK
+clk => DATA[6]~en.CLK
+clk => DATA[7]~reg0.CLK
+clk => DATA[7]~en.CLK
+clk => RW~reg0.CLK
+clk => RS~reg0.CLK
+clk => col[0].CLK
+clk => col[1].CLK
+clk => col[2].CLK
+clk => col[3].CLK
+clk => col[4].CLK
+clk => col[5].CLK
+clk => line[0].CLK
+clk => line[1].CLK
+clk => line[2].CLK
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+clk => counter[4].CLK
+clk => counter[5].CLK
+clk => counter[6].CLK
+clk => counter[7].CLK
+clk => counter[8].CLK
+clk => counter[9].CLK
+clk => counter[10].CLK
+clk => counter[11].CLK
+clk => counter[12].CLK
+clk => counter[13].CLK
+clk => counter[14].CLK
+clk => counter[15].CLK
+clk => counter[16].CLK
+clk => counter[17].CLK
+clk => counter[18].CLK
+clk => counter[19].CLK
+clk => counter[20].CLK
+clk => counter[21].CLK
+clk => counter[22].CLK
+clk => counter[23].CLK
+clk => counter[24].CLK
+clk => counter[25].CLK
+clk => counter[26].CLK
+clk => counter[27].CLK
+clk => counter[28].CLK
+clk => counter[29].CLK
+clk => counter[30].CLK
+clk => counter[31].CLK
+clk => next_state~1.DATAIN
+clk => state~1.DATAIN
+reset => col[0].ACLR
+reset => col[1].ACLR
+reset => col[2].ACLR
+reset => col[3].ACLR
+reset => col[4].ACLR
+reset => col[5].ACLR
+reset => line[0].ACLR
+reset => line[1].ACLR
+reset => line[2].ACLR
+reset => counter[0].ACLR
+reset => counter[1].ACLR
+reset => counter[2].ACLR
+reset => counter[3].ACLR
+reset => counter[4].ACLR
+reset => counter[5].ACLR
+reset => counter[6].ACLR
+reset => counter[7].ACLR
+reset => counter[8].ACLR
+reset => counter[9].ACLR
+reset => counter[10].ACLR
+reset => counter[11].ACLR
+reset => counter[12].ACLR
+reset => counter[13].ACLR
+reset => counter[14].ACLR
+reset => counter[15].ACLR
+reset => counter[16].ACLR
+reset => counter[17].ACLR
+reset => counter[18].ACLR
+reset => counter[19].ACLR
+reset => counter[20].ACLR
+reset => counter[21].ACLR
+reset => counter[22].ACLR
+reset => counter[23].ACLR
+reset => counter[24].ACLR
+reset => counter[25].ACLR
+reset => counter[26].ACLR
+reset => counter[27].ACLR
+reset => counter[28].ACLR
+reset => counter[29].ACLR
+reset => counter[30].ACLR
+reset => counter[31].ACLR
+reset => next_state~3.DATAIN
+reset => state~3.DATAIN
+reset => DATA[7].IN1
+reset => E~reg0.ENA
+reset => RS~reg0.ENA
+reset => RW~reg0.ENA
+initilized => next_state.OUTPUTSELECT
+initilized => next_state.OUTPUTSELECT
+initilized => next_state.OUTPUTSELECT
+initilized => next_state.OUTPUTSELECT
+initilized => next_state.OUTPUTSELECT
+initilized => next_state.OUTPUTSELECT
+initilized => next_state.OUTPUTSELECT
+RS <= RS~reg0.DB_MAX_OUTPUT_PORT_TYPE
+RW <= RW~reg0.DB_MAX_OUTPUT_PORT_TYPE
+E <= E~reg0.DB_MAX_OUTPUT_PORT_TYPE
+DATA[0] <> DATA[0]
+DATA[1] <> DATA[1]
+DATA[2] <> DATA[2]
+DATA[3] <> DATA[3]
+DATA[4] <> DATA[4]
+DATA[5] <> DATA[5]
+DATA[6] <> DATA[6]
+DATA[7] <> DATA[7]
+display_chars[3][19][0] => Mux7.IN31
+display_chars[3][19][1] => Mux6.IN31
+display_chars[3][19][2] => Mux5.IN31
+display_chars[3][19][3] => Mux4.IN31
+display_chars[3][19][4] => Mux3.IN31
+display_chars[3][19][5] => Mux2.IN31
+display_chars[3][19][6] => Mux1.IN31
+display_chars[3][19][7] => Mux0.IN31
+display_chars[3][18][0] => Mux7.IN30
+display_chars[3][18][1] => Mux6.IN30
+display_chars[3][18][2] => Mux5.IN30
+display_chars[3][18][3] => Mux4.IN30
+display_chars[3][18][4] => Mux3.IN30
+display_chars[3][18][5] => Mux2.IN30
+display_chars[3][18][6] => Mux1.IN30
+display_chars[3][18][7] => Mux0.IN30
+display_chars[3][17][0] => Mux7.IN29
+display_chars[3][17][1] => Mux6.IN29
+display_chars[3][17][2] => Mux5.IN29
+display_chars[3][17][3] => Mux4.IN29
+display_chars[3][17][4] => Mux3.IN29
+display_chars[3][17][5] => Mux2.IN29
+display_chars[3][17][6] => Mux1.IN29
+display_chars[3][17][7] => Mux0.IN29
+display_chars[3][16][0] => Mux7.IN28
+display_chars[3][16][1] => Mux6.IN28
+display_chars[3][16][2] => Mux5.IN28
+display_chars[3][16][3] => Mux4.IN28
+display_chars[3][16][4] => Mux3.IN28
+display_chars[3][16][5] => Mux2.IN28
+display_chars[3][16][6] => Mux1.IN28
+display_chars[3][16][7] => Mux0.IN28
+display_chars[3][15][0] => Mux7.IN27
+display_chars[3][15][1] => Mux6.IN27
+display_chars[3][15][2] => Mux5.IN27
+display_chars[3][15][3] => Mux4.IN27
+display_chars[3][15][4] => Mux3.IN27
+display_chars[3][15][5] => Mux2.IN27
+display_chars[3][15][6] => Mux1.IN27
+display_chars[3][15][7] => Mux0.IN27
+display_chars[3][14][0] => Mux7.IN26
+display_chars[3][14][1] => Mux6.IN26
+display_chars[3][14][2] => Mux5.IN26
+display_chars[3][14][3] => Mux4.IN26
+display_chars[3][14][4] => Mux3.IN26
+display_chars[3][14][5] => Mux2.IN26
+display_chars[3][14][6] => Mux1.IN26
+display_chars[3][14][7] => Mux0.IN26
+display_chars[3][13][0] => Mux7.IN25
+display_chars[3][13][1] => Mux6.IN25
+display_chars[3][13][2] => Mux5.IN25
+display_chars[3][13][3] => Mux4.IN25
+display_chars[3][13][4] => Mux3.IN25
+display_chars[3][13][5] => Mux2.IN25
+display_chars[3][13][6] => Mux1.IN25
+display_chars[3][13][7] => Mux0.IN25
+display_chars[3][12][0] => Mux7.IN24
+display_chars[3][12][1] => Mux6.IN24
+display_chars[3][12][2] => Mux5.IN24
+display_chars[3][12][3] => Mux4.IN24
+display_chars[3][12][4] => Mux3.IN24
+display_chars[3][12][5] => Mux2.IN24
+display_chars[3][12][6] => Mux1.IN24
+display_chars[3][12][7] => Mux0.IN24
+display_chars[3][11][0] => Mux7.IN23
+display_chars[3][11][1] => Mux6.IN23
+display_chars[3][11][2] => Mux5.IN23
+display_chars[3][11][3] => Mux4.IN23
+display_chars[3][11][4] => Mux3.IN23
+display_chars[3][11][5] => Mux2.IN23
+display_chars[3][11][6] => Mux1.IN23
+display_chars[3][11][7] => Mux0.IN23
+display_chars[3][10][0] => Mux7.IN22
+display_chars[3][10][1] => Mux6.IN22
+display_chars[3][10][2] => Mux5.IN22
+display_chars[3][10][3] => Mux4.IN22
+display_chars[3][10][4] => Mux3.IN22
+display_chars[3][10][5] => Mux2.IN22
+display_chars[3][10][6] => Mux1.IN22
+display_chars[3][10][7] => Mux0.IN22
+display_chars[3][9][0] => Mux7.IN21
+display_chars[3][9][1] => Mux6.IN21
+display_chars[3][9][2] => Mux5.IN21
+display_chars[3][9][3] => Mux4.IN21
+display_chars[3][9][4] => Mux3.IN21
+display_chars[3][9][5] => Mux2.IN21
+display_chars[3][9][6] => Mux1.IN21
+display_chars[3][9][7] => Mux0.IN21
+display_chars[3][8][0] => Mux7.IN20
+display_chars[3][8][1] => Mux6.IN20
+display_chars[3][8][2] => Mux5.IN20
+display_chars[3][8][3] => Mux4.IN20
+display_chars[3][8][4] => Mux3.IN20
+display_chars[3][8][5] => Mux2.IN20
+display_chars[3][8][6] => Mux1.IN20
+display_chars[3][8][7] => Mux0.IN20
+display_chars[3][7][0] => Mux7.IN19
+display_chars[3][7][1] => Mux6.IN19
+display_chars[3][7][2] => Mux5.IN19
+display_chars[3][7][3] => Mux4.IN19
+display_chars[3][7][4] => Mux3.IN19
+display_chars[3][7][5] => Mux2.IN19
+display_chars[3][7][6] => Mux1.IN19
+display_chars[3][7][7] => Mux0.IN19
+display_chars[3][6][0] => Mux7.IN18
+display_chars[3][6][1] => Mux6.IN18
+display_chars[3][6][2] => Mux5.IN18
+display_chars[3][6][3] => Mux4.IN18
+display_chars[3][6][4] => Mux3.IN18
+display_chars[3][6][5] => Mux2.IN18
+display_chars[3][6][6] => Mux1.IN18
+display_chars[3][6][7] => Mux0.IN18
+display_chars[3][5][0] => Mux7.IN17
+display_chars[3][5][1] => Mux6.IN17
+display_chars[3][5][2] => Mux5.IN17
+display_chars[3][5][3] => Mux4.IN17
+display_chars[3][5][4] => Mux3.IN17
+display_chars[3][5][5] => Mux2.IN17
+display_chars[3][5][6] => Mux1.IN17
+display_chars[3][5][7] => Mux0.IN17
+display_chars[3][4][0] => Mux7.IN16
+display_chars[3][4][1] => Mux6.IN16
+display_chars[3][4][2] => Mux5.IN16
+display_chars[3][4][3] => Mux4.IN16
+display_chars[3][4][4] => Mux3.IN16
+display_chars[3][4][5] => Mux2.IN16
+display_chars[3][4][6] => Mux1.IN16
+display_chars[3][4][7] => Mux0.IN16
+display_chars[3][3][0] => Mux7.IN15
+display_chars[3][3][1] => Mux6.IN15
+display_chars[3][3][2] => Mux5.IN15
+display_chars[3][3][3] => Mux4.IN15
+display_chars[3][3][4] => Mux3.IN15
+display_chars[3][3][5] => Mux2.IN15
+display_chars[3][3][6] => Mux1.IN15
+display_chars[3][3][7] => Mux0.IN15
+display_chars[3][2][0] => Mux7.IN14
+display_chars[3][2][1] => Mux6.IN14
+display_chars[3][2][2] => Mux5.IN14
+display_chars[3][2][3] => Mux4.IN14
+display_chars[3][2][4] => Mux3.IN14
+display_chars[3][2][5] => Mux2.IN14
+display_chars[3][2][6] => Mux1.IN14
+display_chars[3][2][7] => Mux0.IN14
+display_chars[3][1][0] => Mux7.IN13
+display_chars[3][1][1] => Mux6.IN13
+display_chars[3][1][2] => Mux5.IN13
+display_chars[3][1][3] => Mux4.IN13
+display_chars[3][1][4] => Mux3.IN13
+display_chars[3][1][5] => Mux2.IN13
+display_chars[3][1][6] => Mux1.IN13
+display_chars[3][1][7] => Mux0.IN13
+display_chars[3][0][0] => Mux7.IN12
+display_chars[3][0][1] => Mux6.IN12
+display_chars[3][0][2] => Mux5.IN12
+display_chars[3][0][3] => Mux4.IN12
+display_chars[3][0][4] => Mux3.IN12
+display_chars[3][0][5] => Mux2.IN12
+display_chars[3][0][6] => Mux1.IN12
+display_chars[3][0][7] => Mux0.IN12
+display_chars[2][19][0] => Mux15.IN31
+display_chars[2][19][1] => Mux14.IN31
+display_chars[2][19][2] => Mux13.IN31
+display_chars[2][19][3] => Mux12.IN31
+display_chars[2][19][4] => Mux11.IN31
+display_chars[2][19][5] => Mux10.IN31
+display_chars[2][19][6] => Mux9.IN31
+display_chars[2][19][7] => Mux8.IN31
+display_chars[2][18][0] => Mux15.IN30
+display_chars[2][18][1] => Mux14.IN30
+display_chars[2][18][2] => Mux13.IN30
+display_chars[2][18][3] => Mux12.IN30
+display_chars[2][18][4] => Mux11.IN30
+display_chars[2][18][5] => Mux10.IN30
+display_chars[2][18][6] => Mux9.IN30
+display_chars[2][18][7] => Mux8.IN30
+display_chars[2][17][0] => Mux15.IN29
+display_chars[2][17][1] => Mux14.IN29
+display_chars[2][17][2] => Mux13.IN29
+display_chars[2][17][3] => Mux12.IN29
+display_chars[2][17][4] => Mux11.IN29
+display_chars[2][17][5] => Mux10.IN29
+display_chars[2][17][6] => Mux9.IN29
+display_chars[2][17][7] => Mux8.IN29
+display_chars[2][16][0] => Mux15.IN28
+display_chars[2][16][1] => Mux14.IN28
+display_chars[2][16][2] => Mux13.IN28
+display_chars[2][16][3] => Mux12.IN28
+display_chars[2][16][4] => Mux11.IN28
+display_chars[2][16][5] => Mux10.IN28
+display_chars[2][16][6] => Mux9.IN28
+display_chars[2][16][7] => Mux8.IN28
+display_chars[2][15][0] => Mux15.IN27
+display_chars[2][15][1] => Mux14.IN27
+display_chars[2][15][2] => Mux13.IN27
+display_chars[2][15][3] => Mux12.IN27
+display_chars[2][15][4] => Mux11.IN27
+display_chars[2][15][5] => Mux10.IN27
+display_chars[2][15][6] => Mux9.IN27
+display_chars[2][15][7] => Mux8.IN27
+display_chars[2][14][0] => Mux15.IN26
+display_chars[2][14][1] => Mux14.IN26
+display_chars[2][14][2] => Mux13.IN26
+display_chars[2][14][3] => Mux12.IN26
+display_chars[2][14][4] => Mux11.IN26
+display_chars[2][14][5] => Mux10.IN26
+display_chars[2][14][6] => Mux9.IN26
+display_chars[2][14][7] => Mux8.IN26
+display_chars[2][13][0] => Mux15.IN25
+display_chars[2][13][1] => Mux14.IN25
+display_chars[2][13][2] => Mux13.IN25
+display_chars[2][13][3] => Mux12.IN25
+display_chars[2][13][4] => Mux11.IN25
+display_chars[2][13][5] => Mux10.IN25
+display_chars[2][13][6] => Mux9.IN25
+display_chars[2][13][7] => Mux8.IN25
+display_chars[2][12][0] => Mux15.IN24
+display_chars[2][12][1] => Mux14.IN24
+display_chars[2][12][2] => Mux13.IN24
+display_chars[2][12][3] => Mux12.IN24
+display_chars[2][12][4] => Mux11.IN24
+display_chars[2][12][5] => Mux10.IN24
+display_chars[2][12][6] => Mux9.IN24
+display_chars[2][12][7] => Mux8.IN24
+display_chars[2][11][0] => Mux15.IN23
+display_chars[2][11][1] => Mux14.IN23
+display_chars[2][11][2] => Mux13.IN23
+display_chars[2][11][3] => Mux12.IN23
+display_chars[2][11][4] => Mux11.IN23
+display_chars[2][11][5] => Mux10.IN23
+display_chars[2][11][6] => Mux9.IN23
+display_chars[2][11][7] => Mux8.IN23
+display_chars[2][10][0] => Mux15.IN22
+display_chars[2][10][1] => Mux14.IN22
+display_chars[2][10][2] => Mux13.IN22
+display_chars[2][10][3] => Mux12.IN22
+display_chars[2][10][4] => Mux11.IN22
+display_chars[2][10][5] => Mux10.IN22
+display_chars[2][10][6] => Mux9.IN22
+display_chars[2][10][7] => Mux8.IN22
+display_chars[2][9][0] => Mux15.IN21
+display_chars[2][9][1] => Mux14.IN21
+display_chars[2][9][2] => Mux13.IN21
+display_chars[2][9][3] => Mux12.IN21
+display_chars[2][9][4] => Mux11.IN21
+display_chars[2][9][5] => Mux10.IN21
+display_chars[2][9][6] => Mux9.IN21
+display_chars[2][9][7] => Mux8.IN21
+display_chars[2][8][0] => Mux15.IN20
+display_chars[2][8][1] => Mux14.IN20
+display_chars[2][8][2] => Mux13.IN20
+display_chars[2][8][3] => Mux12.IN20
+display_chars[2][8][4] => Mux11.IN20
+display_chars[2][8][5] => Mux10.IN20
+display_chars[2][8][6] => Mux9.IN20
+display_chars[2][8][7] => Mux8.IN20
+display_chars[2][7][0] => Mux15.IN19
+display_chars[2][7][1] => Mux14.IN19
+display_chars[2][7][2] => Mux13.IN19
+display_chars[2][7][3] => Mux12.IN19
+display_chars[2][7][4] => Mux11.IN19
+display_chars[2][7][5] => Mux10.IN19
+display_chars[2][7][6] => Mux9.IN19
+display_chars[2][7][7] => Mux8.IN19
+display_chars[2][6][0] => Mux15.IN18
+display_chars[2][6][1] => Mux14.IN18
+display_chars[2][6][2] => Mux13.IN18
+display_chars[2][6][3] => Mux12.IN18
+display_chars[2][6][4] => Mux11.IN18
+display_chars[2][6][5] => Mux10.IN18
+display_chars[2][6][6] => Mux9.IN18
+display_chars[2][6][7] => Mux8.IN18
+display_chars[2][5][0] => Mux15.IN17
+display_chars[2][5][1] => Mux14.IN17
+display_chars[2][5][2] => Mux13.IN17
+display_chars[2][5][3] => Mux12.IN17
+display_chars[2][5][4] => Mux11.IN17
+display_chars[2][5][5] => Mux10.IN17
+display_chars[2][5][6] => Mux9.IN17
+display_chars[2][5][7] => Mux8.IN17
+display_chars[2][4][0] => Mux15.IN16
+display_chars[2][4][1] => Mux14.IN16
+display_chars[2][4][2] => Mux13.IN16
+display_chars[2][4][3] => Mux12.IN16
+display_chars[2][4][4] => Mux11.IN16
+display_chars[2][4][5] => Mux10.IN16
+display_chars[2][4][6] => Mux9.IN16
+display_chars[2][4][7] => Mux8.IN16
+display_chars[2][3][0] => Mux15.IN15
+display_chars[2][3][1] => Mux14.IN15
+display_chars[2][3][2] => Mux13.IN15
+display_chars[2][3][3] => Mux12.IN15
+display_chars[2][3][4] => Mux11.IN15
+display_chars[2][3][5] => Mux10.IN15
+display_chars[2][3][6] => Mux9.IN15
+display_chars[2][3][7] => Mux8.IN15
+display_chars[2][2][0] => Mux15.IN14
+display_chars[2][2][1] => Mux14.IN14
+display_chars[2][2][2] => Mux13.IN14
+display_chars[2][2][3] => Mux12.IN14
+display_chars[2][2][4] => Mux11.IN14
+display_chars[2][2][5] => Mux10.IN14
+display_chars[2][2][6] => Mux9.IN14
+display_chars[2][2][7] => Mux8.IN14
+display_chars[2][1][0] => Mux15.IN13
+display_chars[2][1][1] => Mux14.IN13
+display_chars[2][1][2] => Mux13.IN13
+display_chars[2][1][3] => Mux12.IN13
+display_chars[2][1][4] => Mux11.IN13
+display_chars[2][1][5] => Mux10.IN13
+display_chars[2][1][6] => Mux9.IN13
+display_chars[2][1][7] => Mux8.IN13
+display_chars[2][0][0] => Mux15.IN12
+display_chars[2][0][1] => Mux14.IN12
+display_chars[2][0][2] => Mux13.IN12
+display_chars[2][0][3] => Mux12.IN12
+display_chars[2][0][4] => Mux11.IN12
+display_chars[2][0][5] => Mux10.IN12
+display_chars[2][0][6] => Mux9.IN12
+display_chars[2][0][7] => Mux8.IN12
+display_chars[1][19][0] => Mux23.IN31
+display_chars[1][19][1] => Mux22.IN31
+display_chars[1][19][2] => Mux21.IN31
+display_chars[1][19][3] => Mux20.IN31
+display_chars[1][19][4] => Mux19.IN31
+display_chars[1][19][5] => Mux18.IN31
+display_chars[1][19][6] => Mux17.IN31
+display_chars[1][19][7] => Mux16.IN31
+display_chars[1][18][0] => Mux23.IN30
+display_chars[1][18][1] => Mux22.IN30
+display_chars[1][18][2] => Mux21.IN30
+display_chars[1][18][3] => Mux20.IN30
+display_chars[1][18][4] => Mux19.IN30
+display_chars[1][18][5] => Mux18.IN30
+display_chars[1][18][6] => Mux17.IN30
+display_chars[1][18][7] => Mux16.IN30
+display_chars[1][17][0] => Mux23.IN29
+display_chars[1][17][1] => Mux22.IN29
+display_chars[1][17][2] => Mux21.IN29
+display_chars[1][17][3] => Mux20.IN29
+display_chars[1][17][4] => Mux19.IN29
+display_chars[1][17][5] => Mux18.IN29
+display_chars[1][17][6] => Mux17.IN29
+display_chars[1][17][7] => Mux16.IN29
+display_chars[1][16][0] => Mux23.IN28
+display_chars[1][16][1] => Mux22.IN28
+display_chars[1][16][2] => Mux21.IN28
+display_chars[1][16][3] => Mux20.IN28
+display_chars[1][16][4] => Mux19.IN28
+display_chars[1][16][5] => Mux18.IN28
+display_chars[1][16][6] => Mux17.IN28
+display_chars[1][16][7] => Mux16.IN28
+display_chars[1][15][0] => Mux23.IN27
+display_chars[1][15][1] => Mux22.IN27
+display_chars[1][15][2] => Mux21.IN27
+display_chars[1][15][3] => Mux20.IN27
+display_chars[1][15][4] => Mux19.IN27
+display_chars[1][15][5] => Mux18.IN27
+display_chars[1][15][6] => Mux17.IN27
+display_chars[1][15][7] => Mux16.IN27
+display_chars[1][14][0] => Mux23.IN26
+display_chars[1][14][1] => Mux22.IN26
+display_chars[1][14][2] => Mux21.IN26
+display_chars[1][14][3] => Mux20.IN26
+display_chars[1][14][4] => Mux19.IN26
+display_chars[1][14][5] => Mux18.IN26
+display_chars[1][14][6] => Mux17.IN26
+display_chars[1][14][7] => Mux16.IN26
+display_chars[1][13][0] => Mux23.IN25
+display_chars[1][13][1] => Mux22.IN25
+display_chars[1][13][2] => Mux21.IN25
+display_chars[1][13][3] => Mux20.IN25
+display_chars[1][13][4] => Mux19.IN25
+display_chars[1][13][5] => Mux18.IN25
+display_chars[1][13][6] => Mux17.IN25
+display_chars[1][13][7] => Mux16.IN25
+display_chars[1][12][0] => Mux23.IN24
+display_chars[1][12][1] => Mux22.IN24
+display_chars[1][12][2] => Mux21.IN24
+display_chars[1][12][3] => Mux20.IN24
+display_chars[1][12][4] => Mux19.IN24
+display_chars[1][12][5] => Mux18.IN24
+display_chars[1][12][6] => Mux17.IN24
+display_chars[1][12][7] => Mux16.IN24
+display_chars[1][11][0] => Mux23.IN23
+display_chars[1][11][1] => Mux22.IN23
+display_chars[1][11][2] => Mux21.IN23
+display_chars[1][11][3] => Mux20.IN23
+display_chars[1][11][4] => Mux19.IN23
+display_chars[1][11][5] => Mux18.IN23
+display_chars[1][11][6] => Mux17.IN23
+display_chars[1][11][7] => Mux16.IN23
+display_chars[1][10][0] => Mux23.IN22
+display_chars[1][10][1] => Mux22.IN22
+display_chars[1][10][2] => Mux21.IN22
+display_chars[1][10][3] => Mux20.IN22
+display_chars[1][10][4] => Mux19.IN22
+display_chars[1][10][5] => Mux18.IN22
+display_chars[1][10][6] => Mux17.IN22
+display_chars[1][10][7] => Mux16.IN22
+display_chars[1][9][0] => Mux23.IN21
+display_chars[1][9][1] => Mux22.IN21
+display_chars[1][9][2] => Mux21.IN21
+display_chars[1][9][3] => Mux20.IN21
+display_chars[1][9][4] => Mux19.IN21
+display_chars[1][9][5] => Mux18.IN21
+display_chars[1][9][6] => Mux17.IN21
+display_chars[1][9][7] => Mux16.IN21
+display_chars[1][8][0] => Mux23.IN20
+display_chars[1][8][1] => Mux22.IN20
+display_chars[1][8][2] => Mux21.IN20
+display_chars[1][8][3] => Mux20.IN20
+display_chars[1][8][4] => Mux19.IN20
+display_chars[1][8][5] => Mux18.IN20
+display_chars[1][8][6] => Mux17.IN20
+display_chars[1][8][7] => Mux16.IN20
+display_chars[1][7][0] => Mux23.IN19
+display_chars[1][7][1] => Mux22.IN19
+display_chars[1][7][2] => Mux21.IN19
+display_chars[1][7][3] => Mux20.IN19
+display_chars[1][7][4] => Mux19.IN19
+display_chars[1][7][5] => Mux18.IN19
+display_chars[1][7][6] => Mux17.IN19
+display_chars[1][7][7] => Mux16.IN19
+display_chars[1][6][0] => Mux23.IN18
+display_chars[1][6][1] => Mux22.IN18
+display_chars[1][6][2] => Mux21.IN18
+display_chars[1][6][3] => Mux20.IN18
+display_chars[1][6][4] => Mux19.IN18
+display_chars[1][6][5] => Mux18.IN18
+display_chars[1][6][6] => Mux17.IN18
+display_chars[1][6][7] => Mux16.IN18
+display_chars[1][5][0] => Mux23.IN17
+display_chars[1][5][1] => Mux22.IN17
+display_chars[1][5][2] => Mux21.IN17
+display_chars[1][5][3] => Mux20.IN17
+display_chars[1][5][4] => Mux19.IN17
+display_chars[1][5][5] => Mux18.IN17
+display_chars[1][5][6] => Mux17.IN17
+display_chars[1][5][7] => Mux16.IN17
+display_chars[1][4][0] => Mux23.IN16
+display_chars[1][4][1] => Mux22.IN16
+display_chars[1][4][2] => Mux21.IN16
+display_chars[1][4][3] => Mux20.IN16
+display_chars[1][4][4] => Mux19.IN16
+display_chars[1][4][5] => Mux18.IN16
+display_chars[1][4][6] => Mux17.IN16
+display_chars[1][4][7] => Mux16.IN16
+display_chars[1][3][0] => Mux23.IN15
+display_chars[1][3][1] => Mux22.IN15
+display_chars[1][3][2] => Mux21.IN15
+display_chars[1][3][3] => Mux20.IN15
+display_chars[1][3][4] => Mux19.IN15
+display_chars[1][3][5] => Mux18.IN15
+display_chars[1][3][6] => Mux17.IN15
+display_chars[1][3][7] => Mux16.IN15
+display_chars[1][2][0] => Mux23.IN14
+display_chars[1][2][1] => Mux22.IN14
+display_chars[1][2][2] => Mux21.IN14
+display_chars[1][2][3] => Mux20.IN14
+display_chars[1][2][4] => Mux19.IN14
+display_chars[1][2][5] => Mux18.IN14
+display_chars[1][2][6] => Mux17.IN14
+display_chars[1][2][7] => Mux16.IN14
+display_chars[1][1][0] => Mux23.IN13
+display_chars[1][1][1] => Mux22.IN13
+display_chars[1][1][2] => Mux21.IN13
+display_chars[1][1][3] => Mux20.IN13
+display_chars[1][1][4] => Mux19.IN13
+display_chars[1][1][5] => Mux18.IN13
+display_chars[1][1][6] => Mux17.IN13
+display_chars[1][1][7] => Mux16.IN13
+display_chars[1][0][0] => Mux23.IN12
+display_chars[1][0][1] => Mux22.IN12
+display_chars[1][0][2] => Mux21.IN12
+display_chars[1][0][3] => Mux20.IN12
+display_chars[1][0][4] => Mux19.IN12
+display_chars[1][0][5] => Mux18.IN12
+display_chars[1][0][6] => Mux17.IN12
+display_chars[1][0][7] => Mux16.IN12
+display_chars[0][19][0] => Mux31.IN31
+display_chars[0][19][1] => Mux30.IN31
+display_chars[0][19][2] => Mux29.IN31
+display_chars[0][19][3] => Mux28.IN31
+display_chars[0][19][4] => Mux27.IN31
+display_chars[0][19][5] => Mux26.IN31
+display_chars[0][19][6] => Mux25.IN31
+display_chars[0][19][7] => Mux24.IN31
+display_chars[0][18][0] => Mux31.IN30
+display_chars[0][18][1] => Mux30.IN30
+display_chars[0][18][2] => Mux29.IN30
+display_chars[0][18][3] => Mux28.IN30
+display_chars[0][18][4] => Mux27.IN30
+display_chars[0][18][5] => Mux26.IN30
+display_chars[0][18][6] => Mux25.IN30
+display_chars[0][18][7] => Mux24.IN30
+display_chars[0][17][0] => Mux31.IN29
+display_chars[0][17][1] => Mux30.IN29
+display_chars[0][17][2] => Mux29.IN29
+display_chars[0][17][3] => Mux28.IN29
+display_chars[0][17][4] => Mux27.IN29
+display_chars[0][17][5] => Mux26.IN29
+display_chars[0][17][6] => Mux25.IN29
+display_chars[0][17][7] => Mux24.IN29
+display_chars[0][16][0] => Mux31.IN28
+display_chars[0][16][1] => Mux30.IN28
+display_chars[0][16][2] => Mux29.IN28
+display_chars[0][16][3] => Mux28.IN28
+display_chars[0][16][4] => Mux27.IN28
+display_chars[0][16][5] => Mux26.IN28
+display_chars[0][16][6] => Mux25.IN28
+display_chars[0][16][7] => Mux24.IN28
+display_chars[0][15][0] => Mux31.IN27
+display_chars[0][15][1] => Mux30.IN27
+display_chars[0][15][2] => Mux29.IN27
+display_chars[0][15][3] => Mux28.IN27
+display_chars[0][15][4] => Mux27.IN27
+display_chars[0][15][5] => Mux26.IN27
+display_chars[0][15][6] => Mux25.IN27
+display_chars[0][15][7] => Mux24.IN27
+display_chars[0][14][0] => Mux31.IN26
+display_chars[0][14][1] => Mux30.IN26
+display_chars[0][14][2] => Mux29.IN26
+display_chars[0][14][3] => Mux28.IN26
+display_chars[0][14][4] => Mux27.IN26
+display_chars[0][14][5] => Mux26.IN26
+display_chars[0][14][6] => Mux25.IN26
+display_chars[0][14][7] => Mux24.IN26
+display_chars[0][13][0] => Mux31.IN25
+display_chars[0][13][1] => Mux30.IN25
+display_chars[0][13][2] => Mux29.IN25
+display_chars[0][13][3] => Mux28.IN25
+display_chars[0][13][4] => Mux27.IN25
+display_chars[0][13][5] => Mux26.IN25
+display_chars[0][13][6] => Mux25.IN25
+display_chars[0][13][7] => Mux24.IN25
+display_chars[0][12][0] => Mux31.IN24
+display_chars[0][12][1] => Mux30.IN24
+display_chars[0][12][2] => Mux29.IN24
+display_chars[0][12][3] => Mux28.IN24
+display_chars[0][12][4] => Mux27.IN24
+display_chars[0][12][5] => Mux26.IN24
+display_chars[0][12][6] => Mux25.IN24
+display_chars[0][12][7] => Mux24.IN24
+display_chars[0][11][0] => Mux31.IN23
+display_chars[0][11][1] => Mux30.IN23
+display_chars[0][11][2] => Mux29.IN23
+display_chars[0][11][3] => Mux28.IN23
+display_chars[0][11][4] => Mux27.IN23
+display_chars[0][11][5] => Mux26.IN23
+display_chars[0][11][6] => Mux25.IN23
+display_chars[0][11][7] => Mux24.IN23
+display_chars[0][10][0] => Mux31.IN22
+display_chars[0][10][1] => Mux30.IN22
+display_chars[0][10][2] => Mux29.IN22
+display_chars[0][10][3] => Mux28.IN22
+display_chars[0][10][4] => Mux27.IN22
+display_chars[0][10][5] => Mux26.IN22
+display_chars[0][10][6] => Mux25.IN22
+display_chars[0][10][7] => Mux24.IN22
+display_chars[0][9][0] => Mux31.IN21
+display_chars[0][9][1] => Mux30.IN21
+display_chars[0][9][2] => Mux29.IN21
+display_chars[0][9][3] => Mux28.IN21
+display_chars[0][9][4] => Mux27.IN21
+display_chars[0][9][5] => Mux26.IN21
+display_chars[0][9][6] => Mux25.IN21
+display_chars[0][9][7] => Mux24.IN21
+display_chars[0][8][0] => Mux31.IN20
+display_chars[0][8][1] => Mux30.IN20
+display_chars[0][8][2] => Mux29.IN20
+display_chars[0][8][3] => Mux28.IN20
+display_chars[0][8][4] => Mux27.IN20
+display_chars[0][8][5] => Mux26.IN20
+display_chars[0][8][6] => Mux25.IN20
+display_chars[0][8][7] => Mux24.IN20
+display_chars[0][7][0] => Mux31.IN19
+display_chars[0][7][1] => Mux30.IN19
+display_chars[0][7][2] => Mux29.IN19
+display_chars[0][7][3] => Mux28.IN19
+display_chars[0][7][4] => Mux27.IN19
+display_chars[0][7][5] => Mux26.IN19
+display_chars[0][7][6] => Mux25.IN19
+display_chars[0][7][7] => Mux24.IN19
+display_chars[0][6][0] => Mux31.IN18
+display_chars[0][6][1] => Mux30.IN18
+display_chars[0][6][2] => Mux29.IN18
+display_chars[0][6][3] => Mux28.IN18
+display_chars[0][6][4] => Mux27.IN18
+display_chars[0][6][5] => Mux26.IN18
+display_chars[0][6][6] => Mux25.IN18
+display_chars[0][6][7] => Mux24.IN18
+display_chars[0][5][0] => Mux31.IN17
+display_chars[0][5][1] => Mux30.IN17
+display_chars[0][5][2] => Mux29.IN17
+display_chars[0][5][3] => Mux28.IN17
+display_chars[0][5][4] => Mux27.IN17
+display_chars[0][5][5] => Mux26.IN17
+display_chars[0][5][6] => Mux25.IN17
+display_chars[0][5][7] => Mux24.IN17
+display_chars[0][4][0] => Mux31.IN16
+display_chars[0][4][1] => Mux30.IN16
+display_chars[0][4][2] => Mux29.IN16
+display_chars[0][4][3] => Mux28.IN16
+display_chars[0][4][4] => Mux27.IN16
+display_chars[0][4][5] => Mux26.IN16
+display_chars[0][4][6] => Mux25.IN16
+display_chars[0][4][7] => Mux24.IN16
+display_chars[0][3][0] => Mux31.IN15
+display_chars[0][3][1] => Mux30.IN15
+display_chars[0][3][2] => Mux29.IN15
+display_chars[0][3][3] => Mux28.IN15
+display_chars[0][3][4] => Mux27.IN15
+display_chars[0][3][5] => Mux26.IN15
+display_chars[0][3][6] => Mux25.IN15
+display_chars[0][3][7] => Mux24.IN15
+display_chars[0][2][0] => Mux31.IN14
+display_chars[0][2][1] => Mux30.IN14
+display_chars[0][2][2] => Mux29.IN14
+display_chars[0][2][3] => Mux28.IN14
+display_chars[0][2][4] => Mux27.IN14
+display_chars[0][2][5] => Mux26.IN14
+display_chars[0][2][6] => Mux25.IN14
+display_chars[0][2][7] => Mux24.IN14
+display_chars[0][1][0] => Mux31.IN13
+display_chars[0][1][1] => Mux30.IN13
+display_chars[0][1][2] => Mux29.IN13
+display_chars[0][1][3] => Mux28.IN13
+display_chars[0][1][4] => Mux27.IN13
+display_chars[0][1][5] => Mux26.IN13
+display_chars[0][1][6] => Mux25.IN13
+display_chars[0][1][7] => Mux24.IN13
+display_chars[0][0][0] => Mux31.IN12
+display_chars[0][0][1] => Mux30.IN12
+display_chars[0][0][2] => Mux29.IN12
+display_chars[0][0][3] => Mux28.IN12
+display_chars[0][0][4] => Mux27.IN12
+display_chars[0][0][5] => Mux26.IN12
+display_chars[0][0][6] => Mux25.IN12
+display_chars[0][0][7] => Mux24.IN12
+
+

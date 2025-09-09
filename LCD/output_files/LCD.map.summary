@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Sun Nov 26 20:25:03 2023
+Quartus Prime Version : 22.1std.2 Build 922 07/20/2023 SC Lite Edition
+Revision Name : LCD
+Top-level Entity Name : TEST_LCD
+Family : MAX 10
+Total logic elements : 389
+    Total combinational functions : 377
+    Dedicated logic registers : 142
+Total registers : 142
+Total pins : 13
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

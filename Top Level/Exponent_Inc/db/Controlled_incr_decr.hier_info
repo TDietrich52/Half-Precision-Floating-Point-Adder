@@ -1,0 +1,55 @@
+|Controlled_incr_decr
+select => comb.IN0
+Cin => Cin.IN5
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+B[0] <= FAbehav:FA.si
+B[1] <= FAbehav:generatingBlock[1].FA.si
+B[2] <= FAbehav:generatingBlock[2].FA.si
+B[3] <= FAbehav:generatingBlock[3].FA.si
+B[4] <= FAbehav:generatingBlock[4].FA.si
+
+
+|Controlled_incr_decr|FAbehav:FA
+ai => Decoder0.IN0
+bi => Decoder0.IN1
+cini => Decoder0.IN2
+si <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+couti <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlled_incr_decr|FAbehav:generatingBlock[1].FA
+ai => Decoder0.IN0
+bi => Decoder0.IN1
+cini => Decoder0.IN2
+si <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+couti <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlled_incr_decr|FAbehav:generatingBlock[2].FA
+ai => Decoder0.IN0
+bi => Decoder0.IN1
+cini => Decoder0.IN2
+si <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+couti <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlled_incr_decr|FAbehav:generatingBlock[3].FA
+ai => Decoder0.IN0
+bi => Decoder0.IN1
+cini => Decoder0.IN2
+si <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+couti <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Controlled_incr_decr|FAbehav:generatingBlock[4].FA
+ai => Decoder0.IN0
+bi => Decoder0.IN1
+cini => Decoder0.IN2
+si <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+couti <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
