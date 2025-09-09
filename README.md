@@ -1,6 +1,6 @@
-# Half-Precision Floating-Point Calculator (FP16) 
+# Half-Precision Floating-Point Calculator
 
-**A half-precision (FP16) calculator built on the DE10-Lite FPGA, featuring a custom hexadecimal keypad for input and a custom LCD board for output. The system performs floating-point addition in IEEE 754 format! 🚀**
+**A half-precision (FP16) calculator built on the DE10-Lite FPGA, featuring a custom hexadecimal keypad for input and a custom LCD board for output. The system performs floating-point addition in IEEE 754 format written in System Verilog and in Intel's Quartus (version 20.1)**
 
 ---
 
