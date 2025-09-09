@@ -50,4 +50,5 @@ This project demonstrates the practical implementation of floating-point arithme
 ---
 
 ## Credits
-This project was built under the instruction of [https://www.uta.edu/academics/faculty/profile?user=carroll](Proffessor Carroll) at the University of Texas at Arlington.
+This project was built under the instruction of [Proffessor Carroll](https://www.uta.edu/academics/faculty/profile?user=carroll) at the University of Texas at Arlington.
+Custom Boards were provided by University of Texas at Arlington's CPE Department.
