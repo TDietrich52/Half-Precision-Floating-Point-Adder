@@ -49,5 +49,5 @@ This project demonstrates the practical implementation of floating-point arithme
 
 ---
 
-## License
-This project is provided under the MIT License. See [LICENSE](LICENSE) for details.
+## Credits
+This project was built under the instruction of [https://www.uta.edu/academics/faculty/profile?user=carroll](Proffessor Carroll) at the University of Texas at Arlington.
